@@ -14,6 +14,10 @@ class ServiceBay:
                 newAppt.appt_end <= existingAppt.appt_start):
                 return True, existingAppt.car_type
         return False, None
-        
-
     
+def balanceOfCarType(self, Appt: Appointments):
+        for existingAppt in self.appt:
+            if (Appt.appt_start < existingAppt.appt_end or 
+                Appt.appt_end > existingAppt.appt_start):
+                return existingAppt.car_type
+            return 'Empty'
