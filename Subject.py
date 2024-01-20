@@ -12,7 +12,7 @@ class Subject:
         """Detaches observer from subject"""
         self.observers.remove(observer)
 
-    def notify(self, statement):   
+    def notify(self, appointment):   
         for observer in self.observers:
-            observer.update(statement)
+            observer.update(appointment)
 

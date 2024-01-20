@@ -5,14 +5,20 @@ class Appointments:
         self.appt_start = start
         self.car_type = car
         self.appt_end = None
-        self.rev = None
+        self.car_rev = None
+        self.status = "N/A"
 
         if car.lower() in ["compact", "medium", "full-size"]:
             self.appt_end = self.appt_start + timedelta(minutes=30)
-            self.rev = 150
+            self.car_rev = 150
         elif car.lower() == "class 1 truck":
             self.appt_end = self.appt_start + timedelta(hours=1)
-            self.rev = 250
+            self.car_rev = 250
         elif car.lower() == "class 2 truck":
             self.appt_end = self.appt_start + timedelta(hours=2)
-            self.rev = 700
+            self.car_rev = 700
+    
+    def updateStatus(self, status):
+        """Sets the status of the appointment to the specified state"""
+        self.status = status
+

@@ -14,9 +14,7 @@ def main():
     #Attach observers to subject
     scheduler.attach(Logger())
 
-    scheduler.attach() # Attach statistics tracker
-
-
+    #scheduler.attach() # Attach statistics tracker
 
 
 
