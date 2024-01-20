@@ -3,7 +3,7 @@ import sys
 
 class Logger(Observer):
 
-    def __init__(self, filepath: str):
+    def __init__(self):
         try:
             self.file = open("loggerfile.txt", "a")
         except:
