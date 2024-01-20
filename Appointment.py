@@ -1,7 +1,8 @@
 from datetime import time, date, datetime, timedelta
 
+
 class Appointments:
-    def __init__(self, start, rev, car):
+    def __init__(self, start, car):
         self.appt_start = start
         self.car_type = car
         self.appt_end = None
@@ -17,8 +18,7 @@ class Appointments:
         elif car.lower() == "class 2 truck":
             self.appt_end = self.appt_start + timedelta(hours=2)
             self.car_rev = 700
-    
+
     def updateStatus(self, status):
         """Sets the status of the appointment to the specified state"""
         self.status = status
-

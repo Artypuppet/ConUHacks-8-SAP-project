@@ -2,6 +2,7 @@ from Subject import Subject
 from Day import Day
 import pandas as pd
 from datetime import date
+from Appointment import Appointments
 
 
 class Scheduler(Subject):
@@ -16,7 +17,12 @@ class Scheduler(Subject):
             year, month, day = row[0].split(' ')[0].split("-")
             date = date(year, month, day)
             if date in self.days:
-                self.days[date].setAppt(row[2], row[1])
+                appointment = Appointments(row[1], row[2])
+                if (self.days[date].add_appointment()):
+                    appointment.status('Success')
+                    self.Notify(appointment)
+                else:
+                    appointment.status('Turnaway')
 
     def sortCSVFileByRequestTime(self, low: int, high: int) -> None:
         if (low >= high):
