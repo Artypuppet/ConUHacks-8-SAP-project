@@ -1,6 +1,6 @@
 import datetime as dt
 from Appointment import Appointments
-from ServiceBay import ServiceBay
+from BackEnd.ServiceBay import ServiceBay
 
 
 class Day:
