@@ -11,8 +11,8 @@ class Logger(Observer):
             print("Exiting program...")
             sys.exit(1)
     
-    def update(self,statement: str):
+    def update(self, appointment):
         try:
-            self.file.write(statement)
+            self.file.write(appointment.appt_start+","+appointment.car_type+","+appointment.status+"\n")
         except:
             print("Could not write to loggerfile.txt", file=sys.stderr)
