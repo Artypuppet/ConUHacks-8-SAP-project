@@ -18,7 +18,7 @@ class StatisticalTracker(Observer):
             self.totalRevenue += appointment.car_rev
             self.totalAppointmentNum += 1
 
-            carIndex = StatisticalTracker.getCarIndex(appointment.car)
+            carIndex = StatisticalTracker.getCarIndex(appointment.car_type)
             #Updates revenue stats for car
             StatisticalTracker.types[carIndex]["totalRevenue"] += appointment.car_rev
             #updates appointment num for car
@@ -28,7 +28,7 @@ class StatisticalTracker(Observer):
             self.totalRevenueLoss -= appointment.car_rev
             self.totalTurnawayNum += 1
 
-            carIndex = StatisticalTracker.getCarIndex(appointment.car)
+            carIndex = StatisticalTracker.getCarIndex(appointment.car_type)
             #Updates revenue stats for car
             StatisticalTracker.types[carIndex]["totalRevenueLoss"] -= appointment.car_rev
             #updates appointment num for car
@@ -39,7 +39,7 @@ class StatisticalTracker(Observer):
             self.totalTurnawayNum += 1
             self.totalAppointmentNum -= 1 #We are only considering the number of appointments that we have scheduled therefore we need to update this
 
-            carIndex = StatisticalTracker.getCarIndex(appointment.car)
+            carIndex = StatisticalTracker.getCarIndex(appointment.car_type)
 
             StatisticalTracker.types[carIndex]["totalRevenue"] -= appointment.car_rev
 
