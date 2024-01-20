@@ -1,41 +1,18 @@
-from datetime import datetime, time, date, timedelta
+import datetime as dt
 from Appointment import Appointments
+from ServiceBay import ServiceBay
 
-class day:
-    currentDay = None
-    apptList = []
-    def __init__(self, csvDate):
-        dateList = csvDate.split(' ')
-        self.currentDay = date.fromisoformat(csvDate[0])
-        apptList = []
+class Day:
+    def __init__(self, date: dt.date):
+        self.date = date
+        self.SB = [ServiceBay(date) for _ in range(10)]
+        self.appts = []
 
-    def setAppt(self, carType, startTime):
-        for x in self.apptList:
-            occupied = bool(1)
-            if x.appt_start <= startTime <= x.appt_end:
-                occupied = bool(0)
+    def add_appointment(self, appt: Appointments):
+        """Checks for availability in each service bay and adds to appointments and the appropriate service bay if space is available."""
+
+        for bay in self.SB:
+            if not bay.isOccupied(appt):
+                bay.appt.append(appt)
+                self.appts.append(appt)
                 break
-        if(occupied):
-            newAppt = Appointments(startTime, 0, carType)
-            self.apptList.append(newAppt)
-
-
-
-
-
-        
-
-
-
-
-
-
-
-        
-
-
-
-       
-
-            
-            
