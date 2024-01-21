@@ -49,15 +49,15 @@ class Day:
                 truckC2 = truckC2 + 1
                 emptyBays = emptyBays - 1
 
-        if (compact == 0):
+        if (compact == 0 and inAppt.car_type not in 'compact'):
             emptyBays = emptyBays - 1
-        if (fullSize == 0):
+        if (fullSize == 0 and inAppt.car_type not in 'full-size'):
             emptyBays = emptyBays - 1
-        if (medium == 0):
+        if (medium == 0 and inAppt.car_type not in 'medium'):
             emptyBays = emptyBays - 1
-        if (truckC1 == 0):
+        if (truckC1 == 0 and inAppt.car_type not in 'class 1 truck'):
             emptyBays = emptyBays - 1
-        if (truckC2 == 0):
+        if (truckC2 == 0 and inAppt.car_type not in 'class 2 truck'):
             emptyBays = emptyBays - 1
 
         if (emptyBays > 0):
