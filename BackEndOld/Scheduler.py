@@ -41,7 +41,7 @@ class Scheduler(Subject):
 
 
             #looking for timetravelers
-            if (datetime.strptime(self.csvFile[ind][1], '%y-%m-%d %H:%M') < datetime.strptime(self.csvFile[ind][0], '%y-%m=%d %H:%M')):
+            if (datetime.strptime(self.csvFile[ind][1], '%Y-%m-%d %H:%M') < datetime.strptime(self.csvFile[ind][0], '%Y-%m-%d %H:%M')):
                 continue
 
             #If date does not exist in self.day, create a day object and store it at the days 
