@@ -1,5 +1,6 @@
 import datetime as dt
 from Appointment import Appointments
+import bisect as bt
 from BackEnd.ServiceBay import ServiceBay
 
 
@@ -18,25 +19,32 @@ class Day:
         truckC1 = 0
         truckC2 = 0
         emptyBays = 10
-
+        closeTime = dt.time(19)
         added = False
+
+        if (dt.strptime(inAppt.appt_start, '%H:%M' > closeTime)):
+            return added
+        
+
+
+        
         for bay in self.SB:
             availList.append(bay.balanceOfCarType(inAppt))
 
         for type in availList:
-            if type.lower in ['compact']:
+            if type.lower() in ['compact']:
                 compact = compact + 1
                 emptyBays = emptyBays - 1
-            elif type.lower in ['medium']:
+            elif type.lower() in ['medium']:
                 medium = medium + 1
                 emptyBays = emptyBays - 1
-            elif type.lower in ['full-size']:
+            elif type.lower() in ['full-size']:
                 fullSize = fullSize + 1
                 emptyBays = emptyBays - 1
-            elif type.lower in ['class 1 truck']:
+            elif type.lower() in ['class 1 truck']:
                 truckC1 = truckC1 + 1
                 emptyBays = emptyBays - 1
-            elif type.lower in ['class 2 truck']:
+            elif type.lower() in ['class 2 truck']:
                 truckC2 = truckC2 + 1
                 emptyBays = emptyBays - 1
 
@@ -54,10 +62,9 @@ class Day:
         if (emptyBays > 0):
             for type in availList:
                 if type in ['Empty']:
-                    bay.self.appt.append(inAppt)
+                    bay.self.appt.addAppointment(inAppt)
                     added = True
                     break
 
         return added
-
 
