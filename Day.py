@@ -1,10 +1,10 @@
-import datetime as dt
+from datetime import datetime
 from Appointment import Appointments
 from BackEnd.ServiceBay import ServiceBay
 
 
 class Day:
-    def __init__(self, date: dt.date):
+    def __init__(self, date: datetime.date):
         self.date = date
         self.SB = [ServiceBay(date) for _ in range(10)]
         self.appts = [] 
@@ -18,8 +18,17 @@ class Day:
         truckC1 = 0
         truckC2 = 0
         emptyBays = 10
-
+        closeTime = datetime.time(19)
+        startTime = datetime.strptime(inAppt.appt_start)
+        endTime = datetime.strptime(inAppt.appt_end)
+        emptyIndex = []
+        deadTimeList = []
         added = False
+
+        if (datetime.strptime(inAppt.appt_end , '%H:%M') > closeTime):
+            return added
+        
+
         for bay in self.SB:
             availList.append(bay.balanceOfCarType(inAppt))
 
@@ -51,13 +60,43 @@ class Day:
         if (truckC2 == 0):
             emptyBays = emptyBays - 1
 
+        if (emptyBays < 0)
+            print('\n\n we fucked up \n\n')
+
         if (emptyBays > 0):
             for type in availList:
-                if type in ['Empty']:
-                    bay.self.appt.append(inAppt)
-                    added = True
-                    break
+                if type in 'empty':
+                    emptyIndex.append(availList.index(type))
+                    deadTimeList.append(self.SB[availList.index(type)].getDeadTime())
 
-        return added
+            minDead = deadTimeList[0]        
+            count = 0
+            index = 0
+
+            for time in deadTimeList:
+                if time < minDead:
+                    minDead = time
+                    index = count
+                count += 1
+            self.SB[emptyIndex[index]].appt.append(inAppt)
+            added = True
+            return added
+        
+
+        elif (emptyBays == 0):
+           added = recursiveOptimize(inAppt)
+
+            
+
+
+        
+    
+    def recursiveOptimize(self, inAppt: Appointments):
+        deadTimeList = []
+        for bay in self.SB:
+            deadTimeList.append(bay.getDeadTime)
+        
+
+
 
 
