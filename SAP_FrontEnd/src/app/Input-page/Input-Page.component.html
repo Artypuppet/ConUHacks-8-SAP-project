@@ -1,0 +1,68 @@
+<div>
+  <nb-card>
+    <nb-card-body>
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <nb-form-field
+          [style.margin]="'auto'"
+          [style.margin-bottom]="'2%'"
+        >
+          <label class="label">Upload a CSV file</label>
+          <input
+            [style.display]="'none'"
+            type="file"
+            nbInput
+            status="primary"
+            name="fileUpload"
+            #File
+            formControlName="file"
+            multiple
+            accept=".csv"
+            (change)="onFileClick($event)"
+          />
+          <nb-icon
+            *ngIf="form.controls.file.touched && form.controls.file.invalid && form.controls.file.errors?.['required']"
+            nbSuffix
+            icon="alert-circle-outline"
+            status="danger"
+            [style.margin-top]="'70%'"
+          ></nb-icon>
+          <div>
+            <button nbButton status="info" (click)="File.click()">
+              <nb-icon icon="attach-outline"></nb-icon>
+            </button>
+          </div>
+        </nb-form-field>
+        <nb-list>
+          <nb-list-item
+            [style.position]="'relative'"
+            class="list-item-divider-width"
+            *ngFor="let file of allFiles; let i = index"
+            >{{ file.name }}
+            <button
+              type="button"
+              nbButton
+              routerLink="/dashboard"
+              routerLinkActive="true"
+              status="success"
+              [style.position]="'absolute'"
+              [style.margin-left]="'80%'"
+              (click)="uploadFile(i)"
+            >
+              Upload
+            </button>
+            <button
+              type="button"
+              nbButton
+              status="danger"
+              [style.position]="'absolute'"
+              [style.margin-left]="'90%'"
+              (click)="removeFile(i)"
+            >
+              Remove
+            </button>
+          </nb-list-item>
+        </nb-list>
+      </form>
+    </nb-card-body>
+  </nb-card>
+</div>
