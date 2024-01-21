@@ -19,8 +19,15 @@ class Day:
         truckC1 = 0
         truckC2 = 0
         emptyBays = 10
-
+        closeTime = dt.time(19)
         added = False
+
+        if (dt.strptime(inAppt.appt_start, '%H:%M' > closeTime)):
+            return added
+        
+
+
+        
         for bay in self.SB:
             availList.append(bay.balanceOfCarType(inAppt))
 
