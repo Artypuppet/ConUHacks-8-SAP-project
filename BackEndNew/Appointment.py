@@ -2,12 +2,16 @@ from datetime import time, date, datetime, timedelta
 
 
 class Appointments:
-    def __init__(self, start, car):
+    def __init__(self, start, car, WalkIn):
         self.car_type = car
         self.car_rev = None
         self.status = "N/A"
         self.appt_start = start  # Store the start time as a string
         start_time_obj = datetime.strptime(start, '%H:%M')  # Convert start to a datetime object for calculation
+        self.walkIn = WalkIn
+
+
+
 
         if car.lower() in ["compact", "medium", "full-size"]:
             end_time_obj = start_time_obj + timedelta(minutes=30)
