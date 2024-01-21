@@ -1,6 +1,6 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from flask_cors import CORS
-from werkzeug.utils import secure_filename
+from BackEndOld.main import Driver
 import os
 app = Flask(__name__)
 CORS(app)
@@ -15,12 +15,11 @@ def postCSVFile():
     if file.filename == '':
         print("No selected file")
     if request.method == "POST":
-        file.save(os.path.join("uploadFiles", file.filename))
-        print(file.filename)
-        print(os.path.join("./uploadFiles", secure_filename(file.filename)))
-        print(file)
+        filePath = os.path.join("uploadFiles", file.filename)
+        file.save(filePath)
         print("got the file")
-    return {}
+    graphData, FinalMetrics = Driver(filePath)
+    return jsonify(graphData=graphData, finalMetrics=FinalMetrics)
 
 
 if __name__ == '__main__':

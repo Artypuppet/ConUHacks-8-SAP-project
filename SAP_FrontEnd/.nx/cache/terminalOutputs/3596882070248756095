@@ -218,3 +218,992 @@
 [37m[0mBuild at: [1m[37m2024-01-21T11:17:07.651Z[39m[37m[22m - Hash: [1m[37m72cd9592e03bf706[39m[37m[22m - Time: [1m[37m623[39m[37m[22mms[0m[39m
 [37m[39m
 [37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m24.77 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T11:34:47.465Z[39m[37m[22m - Hash: [1m[37m291e2db3e824d423[39m[37m[22m - Time: [1m[37m960[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m5.54 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m24.41 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m2 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T11:42:51.459Z[39m[37m[22m - Hash: [1m[37m6d8fef90442b2422[39m[37m[22m - Time: [1m[37m2971[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m25[0m:[93m5[0m - [91merror[0m[90m NG2012: [0mComponent imports must be standalone components, directives, pipes, or must be NgModules.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m25[0m     Chart,[39m[22m
+[1m[31m[7m  [0m [91m    ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m5.07 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.23 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m2 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:13:49.731Z[39m[37m[22m - Hash: [1m[37mfc0189149610e4f9[39m[37m[22m - Time: [1m[37m1180[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/dashboard/dashboard.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: C:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\src\app\dashboard\dashboard.component.ts: Unexpected token (13:8)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 11 |[39m[31m             type[33m:[39m[31m [32m'bar'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m             data[33m:[39m[31m [0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 13 |[39m[31m         }[33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m         [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m     }[0m[39m[22m
+[1m[31m[0m [90m 15 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵfac [33m=[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Factory[39m[31m(t) { [36mreturn[39m[31m [36mnew[39m[31m (t [33m||[39m[31m [33mDashboardComponent[39m[31m)()[33m;[39m[31m }[33m;[39m[31m }[0m[39m[22m
+[1m[31m[0m [90m 16 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵcmp [33m=[39m[31m [90m/*@__PURE__*/[39m[31m i0[33m.[39m[31mɵɵdefineComponent({ type[33m:[39m[31m [33mDashboardComponent[39m[31m[33m,[39m[31m selectors[33m:[39m[31m [[[32m"app-dashboard"[39m[31m]][33m,[39m[31m standalone[33m:[39m[31m [36mtrue[39m[31m[33m,[39m[31m features[33m:[39m[31m [i0[33m.[39m[31mɵɵStandaloneFeature][33m,[39m[31m decls[33m:[39m[31m [35m2[39m[31m[33m,[39m[31m vars[33m:[39m[31m [35m0[39m[31m[33m,[39m[31m template[33m:[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Template[39m[31m(rf[33m,[39m[31m ctx) { [36mif[39m[31m (rf [33m&[39m[31m [35m1[39m[31m) {[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m38[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m         }[39m[22m
+[1m[31m[7m  [0m [91m        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.64 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:24:41.601Z[39m[37m[22m - Hash: [1m[37m8055c02f11089fd3[39m[37m[22m - Time: [1m[37m730[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/dashboard/dashboard.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: C:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\src\app\dashboard\dashboard.component.ts: Unexpected token (13:8)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 11 |[39m[31m             type[33m:[39m[31m [32m'bar'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m             data[33m:[39m[31m [0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 13 |[39m[31m         }[33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m         [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m     }[0m[39m[22m
+[1m[31m[0m [90m 15 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵfac [33m=[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Factory[39m[31m(t) { [36mreturn[39m[31m [36mnew[39m[31m (t [33m||[39m[31m [33mDashboardComponent[39m[31m)()[33m;[39m[31m }[33m;[39m[31m }[0m[39m[22m
+[1m[31m[0m [90m 16 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵcmp [33m=[39m[31m [90m/*@__PURE__*/[39m[31m i0[33m.[39m[31mɵɵdefineComponent({ type[33m:[39m[31m [33mDashboardComponent[39m[31m[33m,[39m[31m selectors[33m:[39m[31m [[[32m"app-dashboard"[39m[31m]][33m,[39m[31m standalone[33m:[39m[31m [36mtrue[39m[31m[33m,[39m[31m features[33m:[39m[31m [i0[33m.[39m[31mɵɵStandaloneFeature][33m,[39m[31m decls[33m:[39m[31m [35m2[39m[31m[33m,[39m[31m vars[33m:[39m[31m [35m0[39m[31m[33m,[39m[31m template[33m:[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Template[39m[31m(rf[33m,[39m[31m ctx) { [36mif[39m[31m (rf [33m&[39m[31m [35m1[39m[31m) {[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m38[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m         }[39m[22m
+[1m[31m[7m  [0m [91m        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.70 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:31:13.365Z[39m[37m[22m - Hash: [1m[37mc858f6c0c76eb7af[39m[37m[22m - Time: [1m[37m391[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/dashboard/dashboard.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: C:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\src\app\dashboard\dashboard.component.ts: Unexpected token (13:8)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 11 |[39m[31m             type[33m:[39m[31m [32m'bar'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m             data[33m:[39m[31m [0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 13 |[39m[31m         }[33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m         [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m     }[0m[39m[22m
+[1m[31m[0m [90m 15 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵfac [33m=[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Factory[39m[31m(t) { [36mreturn[39m[31m [36mnew[39m[31m (t [33m||[39m[31m [33mDashboardComponent[39m[31m)()[33m;[39m[31m }[33m;[39m[31m }[0m[39m[22m
+[1m[31m[0m [90m 16 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵcmp [33m=[39m[31m [90m/*@__PURE__*/[39m[31m i0[33m.[39m[31mɵɵdefineComponent({ type[33m:[39m[31m [33mDashboardComponent[39m[31m[33m,[39m[31m selectors[33m:[39m[31m [[[32m"app-dashboard"[39m[31m]][33m,[39m[31m standalone[33m:[39m[31m [36mtrue[39m[31m[33m,[39m[31m features[33m:[39m[31m [i0[33m.[39m[31mɵɵStandaloneFeature][33m,[39m[31m decls[33m:[39m[31m [35m2[39m[31m[33m,[39m[31m vars[33m:[39m[31m [35m0[39m[31m[33m,[39m[31m template[33m:[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Template[39m[31m(rf[33m,[39m[31m ctx) { [36mif[39m[31m (rf [33m&[39m[31m [35m1[39m[31m) {[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m38[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m         }[39m[22m
+[1m[31m[7m  [0m [91m        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.70 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:31:15.241Z[39m[37m[22m - Hash: [1m[37m2c20de60f7295aab[39m[37m[22m - Time: [1m[37m305[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/dashboard/dashboard.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: C:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\src\app\dashboard\dashboard.component.ts: Unexpected token (13:8)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 11 |[39m[31m             type[33m:[39m[31m [32m'bar'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m             data[33m:[39m[31m [0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 13 |[39m[31m         }[33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m         [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m     }[0m[39m[22m
+[1m[31m[0m [90m 15 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵfac [33m=[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Factory[39m[31m(t) { [36mreturn[39m[31m [36mnew[39m[31m (t [33m||[39m[31m [33mDashboardComponent[39m[31m)()[33m;[39m[31m }[33m;[39m[31m }[0m[39m[22m
+[1m[31m[0m [90m 16 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵcmp [33m=[39m[31m [90m/*@__PURE__*/[39m[31m i0[33m.[39m[31mɵɵdefineComponent({ type[33m:[39m[31m [33mDashboardComponent[39m[31m[33m,[39m[31m selectors[33m:[39m[31m [[[32m"app-dashboard"[39m[31m]][33m,[39m[31m standalone[33m:[39m[31m [36mtrue[39m[31m[33m,[39m[31m features[33m:[39m[31m [i0[33m.[39m[31mɵɵStandaloneFeature][33m,[39m[31m decls[33m:[39m[31m [35m2[39m[31m[33m,[39m[31m vars[33m:[39m[31m [35m0[39m[31m[33m,[39m[31m template[33m:[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Template[39m[31m(rf[33m,[39m[31m ctx) { [36mif[39m[31m (rf [33m&[39m[31m [35m1[39m[31m) {[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m38[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m         }[39m[22m
+[1m[31m[7m  [0m [91m        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:32:52.683Z[39m[37m[22m - Hash: [1m[37m06291e989d9fa5cd[39m[37m[22m - Time: [1m[37m318[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/dashboard/dashboard.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: C:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\src\app\dashboard\dashboard.component.ts: Unexpected token (13:8)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 11 |[39m[31m             type[33m:[39m[31m [32m'bar'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m             data[33m:[39m[31m [0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 13 |[39m[31m         }[33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m         [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m     }[0m[39m[22m
+[1m[31m[0m [90m 15 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵfac [33m=[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Factory[39m[31m(t) { [36mreturn[39m[31m [36mnew[39m[31m (t [33m||[39m[31m [33mDashboardComponent[39m[31m)()[33m;[39m[31m }[33m;[39m[31m }[0m[39m[22m
+[1m[31m[0m [90m 16 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵcmp [33m=[39m[31m [90m/*@__PURE__*/[39m[31m i0[33m.[39m[31mɵɵdefineComponent({ type[33m:[39m[31m [33mDashboardComponent[39m[31m[33m,[39m[31m selectors[33m:[39m[31m [[[32m"app-dashboard"[39m[31m]][33m,[39m[31m standalone[33m:[39m[31m [36mtrue[39m[31m[33m,[39m[31m features[33m:[39m[31m [i0[33m.[39m[31mɵɵStandaloneFeature][33m,[39m[31m decls[33m:[39m[31m [35m2[39m[31m[33m,[39m[31m vars[33m:[39m[31m [35m0[39m[31m[33m,[39m[31m template[33m:[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Template[39m[31m(rf[33m,[39m[31m ctx) { [36mif[39m[31m (rf [33m&[39m[31m [35m1[39m[31m) {[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/Chart-Data-Service/chart-data-service.service.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m18[0m   })[39m[22m
+[1m[31m[7m  [0m [91m   ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m38[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m         }[39m[22m
+[1m[31m[7m  [0m [91m        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:32:57.320Z[39m[37m[22m - Hash: [1m[37m23e1497e974182fc[39m[37m[22m - Time: [1m[37m304[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/dashboard/dashboard.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: C:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\src\app\dashboard\dashboard.component.ts: Unexpected token (13:8)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 11 |[39m[31m             type[33m:[39m[31m [32m'bar'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m             data[33m:[39m[31m [0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 13 |[39m[31m         }[33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m         [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m     }[0m[39m[22m
+[1m[31m[0m [90m 15 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵfac [33m=[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Factory[39m[31m(t) { [36mreturn[39m[31m [36mnew[39m[31m (t [33m||[39m[31m [33mDashboardComponent[39m[31m)()[33m;[39m[31m }[33m;[39m[31m }[0m[39m[22m
+[1m[31m[0m [90m 16 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵcmp [33m=[39m[31m [90m/*@__PURE__*/[39m[31m i0[33m.[39m[31mɵɵdefineComponent({ type[33m:[39m[31m [33mDashboardComponent[39m[31m[33m,[39m[31m selectors[33m:[39m[31m [[[32m"app-dashboard"[39m[31m]][33m,[39m[31m standalone[33m:[39m[31m [36mtrue[39m[31m[33m,[39m[31m features[33m:[39m[31m [i0[33m.[39m[31mɵɵStandaloneFeature][33m,[39m[31m decls[33m:[39m[31m [35m2[39m[31m[33m,[39m[31m vars[33m:[39m[31m [35m0[39m[31m[33m,[39m[31m template[33m:[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Template[39m[31m(rf[33m,[39m[31m ctx) { [36mif[39m[31m (rf [33m&[39m[31m [35m1[39m[31m) {[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m38[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m         }[39m[22m
+[1m[31m[7m  [0m [91m        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m26.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:43:02.125Z[39m[37m[22m - Hash: [1m[37m433662f7a548e94e[39m[37m[22m - Time: [1m[37m409[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m26.62 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:43:05.584Z[39m[37m[22m - Hash: [1m[37m5e1c1e4c277e2495[39m[37m[22m - Time: [1m[37m382[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m26.62 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:43:50.853Z[39m[37m[22m - Hash: [1m[37mfa19867e48610f75[39m[37m[22m - Time: [1m[37m393[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m26.62 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:58:42.178Z[39m[37m[22m - Hash: [1m[37mce689eab7ef5de24[39m[37m[22m - Time: [1m[37m393[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m26.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T12:59:33.276Z[39m[37m[22m - Hash: [1m[37mf55b7078f44f1c85[39m[37m[22m - Time: [1m[37m476[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m26.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T13:09:23.740Z[39m[37m[22m - Hash: [1m[37mb549dfef190fa72e[39m[37m[22m - Time: [1m[37m393[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m26.64 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T13:11:25.516Z[39m[37m[22m - Hash: [1m[37med285de7909ee00f[39m[37m[22m - Time: [1m[37m377[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m26.78 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T13:12:57.984Z[39m[37m[22m - Hash: [1m[37mad4770348647cdc6[39m[37m[22m - Time: [1m[37m482[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m22.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T13:13:36.396Z[39m[37m[22m - Hash: [1m[37mfe48a64257391917[39m[37m[22m - Time: [1m[37m390[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/Input-page/Input-Page.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: C:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\src\app\Input-page\Input-Page.component.ts: Unexpected token (62:31)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 60 |[39m[31m             post[33m.[39m[31msubscribe(([33mResponse[39m[31m) [33m=>[39m[31m {[0m[39m[22m
+[1m[31m[0m [90m 61 |[39m[31m                 console[33m.[39m[31mlog([33mResponse[39m[31m)[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 62 |[39m[31m                     [33m=[39m[31m [33mResponse[39m[31m[33m.[39m[31m[[32m"finalMetrics"[39m[31m][33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m                                [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 63 |[39m[31m             })[33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 64 |[39m[31m             [36mthis[39m[31m[33m.[39m[31mremoveFile(index)[33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 65 |[39m[31m         }[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/Input-page/Input-Page.component.ts[0m:[93m65[0m:[93m9[0m - [91merror[0m[90m TS2364: [0mThe left-hand side of an assignment expression must be a variable or a property access.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m65[0m         console.log(Response)[39m[22m
+[1m[31m[7m  [0m [91m        ~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/Input-page/Input-Page.component.ts[0m:[93m66[0m:[93m20[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m66[0m         = Response.["finalMetrics"][39m[22m
+[1m[31m[7m  [0m [91m                   ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m27.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T13:18:00.036Z[39m[37m[22m - Hash: [1m[37m49ec1b5fa7b36229[39m[37m[22m - Time: [1m[37m619[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m27.12 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T13:19:00.194Z[39m[37m[22m - Hash: [1m[37m004d7ecabd455054[39m[37m[22m - Time: [1m[37m414[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.99 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:00:47.991Z[39m[37m[22m - Hash: [1m[37m4dc8a56a2bc2ad34[39m[37m[22m - Time: [1m[37m426[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/dashboard/dashboard.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: C:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\src\app\dashboard\dashboard.component.ts: Unexpected token (28:12)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 26 |[39m[31m                 labels[33m:[39m[31m [[32m'Compact Cars'[39m[31m[33m,[39m[31m [32m"Medium Cars"[39m[31m[33m,[39m[31m [32m"Full-Size Cars"[39m[31m[33m,[39m[31m [32m'Class 1 Trucks'[39m[31m[33m,[39m[31m [32m'Class 2 Trucks'[39m[31m][33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 27 |[39m[31m                 data[33m:[39m[31m [36mthis[39m[31m[33m.[39m[31mchartData[33m.[39m[31mbarCharData[33m.[39m[31m[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 28 |[39m[31m             }[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m             [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 29 |[39m[31m         }[33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 30 |[39m[31m     }[0m[39m[22m
+[1m[31m[0m [90m 31 |[39m[31m     [36mstatic[39m[31m { [36mthis[39m[31m[33m.[39m[31mɵfac [33m=[39m[31m [36mfunction[39m[31m [33mDashboardComponent_Factory[39m[31m(t) { [36mreturn[39m[31m [36mnew[39m[31m (t [33m||[39m[31m [33mDashboardComponent[39m[31m)(i0[33m.[39m[31mɵɵdirectiveInject(i1[33m.[39m[31m[33mChartDataServiceService[39m[31m))[33m;[39m[31m }[33m;[39m[31m }[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m50[0m:[93m107[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m50[0m             labels: [ 'Compact Cars', "Medium Cars", "Full-Size Cars", 'Class 1 Trucks', 'Class 2 Trucks'];[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                          ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m52[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m52[0m         }[39m[22m
+[1m[31m[7m  [0m [91m        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m28.46 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:03:07.171Z[39m[37m[22m - Hash: [1m[37m4c938fe9d6a52d0e[39m[37m[22m - Time: [1m[37m306[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m52[0m:[93m107[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m52[0m             labels: [ 'Compact Cars', "Medium Cars", "Full-Size Cars", 'Class 1 Trucks', 'Class 2 Trucks'];[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                          ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m28.60 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:04:31.794Z[39m[37m[22m - Hash: [1m[37m06069b28f37370ac[39m[37m[22m - Time: [1m[37m292[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m52[0m:[93m107[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m52[0m             labels: [ 'Compact Cars', "Medium Cars", "Full-Size Cars", 'Class 1 Trucks', 'Class 2 Trucks'];[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                          ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m28.60 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:04:32.705Z[39m[37m[22m - Hash: [1m[37m6d6eae0f63ab949a[39m[37m[22m - Time: [1m[37m223[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m52[0m:[93m107[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m52[0m             labels: [ 'Compact Cars', "Medium Cars", "Full-Size Cars", 'Class 1 Trucks', 'Class 2 Trucks'];[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                          ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m28.60 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:04:44.158Z[39m[37m[22m - Hash: [1m[37m36d4482a623826f1[39m[37m[22m - Time: [1m[37m275[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m29.83 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:09:09.988Z[39m[37m[22m - Hash: [1m[37mbc7bc1751c842f3f[39m[37m[22m - Time: [1m[37m453[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m29.63 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:10:35.418Z[39m[37m[22m - Hash: [1m[37m9ceb50402e81910b[39m[37m[22m - Time: [1m[37m359[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m5.54 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m29.79 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m2 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:12:51.217Z[39m[37m[22m - Hash: [1m[37m40eb53dde203d94d[39m[37m[22m - Time: [1m[37m1191[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m66[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType '{ labels: string[]; dataSets: { label: string; data: number[]; borderWidth: number; }; }' is not assignable to type 'ChartData<"bar", (number | [number, number] | null)[], unknown> | ChartDataCustomTypesPerDataset<"bar", (number | [number, number] | null)[], unknown>'.[39m[22m
+[1m[31m  Object literal may only specify known properties, but 'dataSets' does not exist in type 'ChartData<"bar", (number | [number, number] | null)[], unknown> | ChartDataCustomTypesPerDataset<"bar", (number | [number, number] | null)[], unknown>'. Did you mean to write 'datasets'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m 66[0m         dataSets: {[39m[22m
+[1m[31m[7m   [0m [91m        ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 67[0m           label: '$Revenue',[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m...[0m [39m[22m
+[1m[31m[7m 69[0m           borderWidth: 1,[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[7m 70[0m         },[39m[22m
+[1m[31m[7m   [0m [91m~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/chart.js/dist/types/index.d.ts[0m:[93m3817[0m:[93m3[0m[39m[22m
+[1m[31m    [7m3817[0m   data: ChartData<TType, TData, TLabel>;[39m[22m
+[1m[31m    [7m    [0m [96m  ~~~~[0m[39m[22m
+[1m[31m    The expected type comes from property 'data' which is declared here on type 'ChartConfiguration<"bar", (number | [number, number] | null)[], unknown> | ChartConfigurationCustomTypesPerDataset<"bar", (number | [number, number] | null)[], unknown>'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m29.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:14:39.912Z[39m[37m[22m - Hash: [1m[37m4d2d99921bdb99ce[39m[37m[22m - Time: [1m[37m436[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m134[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m134[0m   });[39m[22m
+[1m[31m[7m   [0m [91m  ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m134[0m:[93m4[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m134[0m   });[39m[22m
+[1m[31m[7m   [0m [91m   ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m29.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:14:45.599Z[39m[37m[22m - Hash: [1m[37mcd4ba7d43962f6f8[39m[37m[22m - Time: [1m[37m398[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m29.98 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:16:27.098Z[39m[37m[22m - Hash: [1m[37m1b372a08d6f84e8b[39m[37m[22m - Time: [1m[37m474[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m30.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:21:47.086Z[39m[37m[22m - Hash: [1m[37mb00984364314cfde[39m[37m[22m - Time: [1m[37m619[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m30.28 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:24:01.066Z[39m[37m[22m - Hash: [1m[37m3909d749f7ba2cb5[39m[37m[22m - Time: [1m[37m555[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m30.94 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:25:21.177Z[39m[37m[22m - Hash: [1m[37m9faf78cd429771c6[39m[37m[22m - Time: [1m[37m592[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m29.55 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:26:36.677Z[39m[37m[22m - Hash: [1m[37m56a8755116ee57fd[39m[37m[22m - Time: [1m[37m525[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.html[0m:[93m7[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF"[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m7[0m [39m[22m
+[1m[31m[7m [0m [91m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './dashboard.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component DashboardComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:26:48.546Z[39m[37m[22m - Hash: [1m[37m487fe2634d01b223[39m[37m[22m - Time: [1m[37m462[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.30 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:31:23.309Z[39m[37m[22m - Hash: [1m[37m3b6ac6a8def222b4[39m[37m[22m - Time: [1m[37m462[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m255[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m255[0m }[39m[22m
+[1m[31m[7m   [0m [91m~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.30 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:31:35.006Z[39m[37m[22m - Hash: [1m[37ma7f1baf005f3d23f[39m[37m[22m - Time: [1m[37m470[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.23 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:35:24.456Z[39m[37m[22m - Hash: [1m[37m829ece88c66ea61a[39m[37m[22m - Time: [1m[37m478[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.47 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:43:41.689Z[39m[37m[22m - Hash: [1m[37md0d7dc63cf836983[39m[37m[22m - Time: [1m[37m588[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.70 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:46:29.346Z[39m[37m[22m - Hash: [1m[37m2cd7707ae2730496[39m[37m[22m - Time: [1m[37m659[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.23 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:49:09.355Z[39m[37m[22m - Hash: [1m[37m3d67d1104fee4c36[39m[37m[22m - Time: [1m[37m483[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.75 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:53:18.786Z[39m[37m[22m - Hash: [1m[37m3492a8afdd85b5be[39m[37m[22m - Time: [1m[37m707[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.html[0m:[93m15[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'checkDashboard' does not exist on type 'DashboardComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   (click)="checkDashboard()"[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './dashboard.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component DashboardComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.76 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:53:41.034Z[39m[37m[22m - Hash: [1m[37m9ecd9ce25d08082c[39m[37m[22m - Time: [1m[37m586[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m5.07 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.12 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m2 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:59:43.188Z[39m[37m[22m - Hash: [1m[37m91b7f867fb99713b[39m[37m[22m - Time: [1m[37m811[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/dashboard/dashboard.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: C:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\src\app\dashboard\dashboard.component.ts: Lexical declaration cannot appear in a single-statement context. (157:12)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 155 |[39m[31m         [36mwhile[39m[31m ([36mthis[39m[31m[33m.[39m[31mchartData[33m.[39m[31mbarCharData[33m.[39m[31mlength [33m==[39m[31m [35m0[39m[31m [33m&&[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 156 |[39m[31m             [33mObject[39m[31m[33m.[39m[31mkeys([36mthis[39m[31m[33m.[39m[31mchartData[33m.[39m[31mfinalMetricsData)[33m.[39m[31mlength [33m==[39m[31m [35m0[39m[31m)[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 157 |[39m[31m             [36mlet[39m[31m revenue [33m=[39m[31m [][33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m     |[39m[31m             [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 158 |[39m[31m         [36mlet[39m[31m totalRevenueLoss [33m=[39m[31m [][33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 159 |[39m[31m         [36mlet[39m[31m totalRevenueApptNum [33m=[39m[31m [][33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 160 |[39m[31m         [36mlet[39m[31m totalTurnAwayNum [33m=[39m[31m [][33m;[39m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m155[0m:[93m7[0m - [91merror[0m[90m TS1157: [0m'let' declarations can only be declared inside a block.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m155[0m       let revenue = [][39m[22m
+[1m[31m[7m   [0m [91m      ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m167[0m:[93m7[0m - [91merror[0m[90m TS2454: [0mVariable 'revenue' is used before being assigned.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m167[0m       revenue.push(parseInt(this.chartData.barCharData[i]['totalRevenue']))[39m[22m
+[1m[31m[7m   [0m [91m      ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m185[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'any[] | undefined' is not assignable to type '(number | [number, number] | null)[]'.[39m[22m
+[1m[31m  Type 'undefined' i[39m[22m[1m[31ms not assignable to type '(number | [number, number] | null)[]'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m185[0m             data: revenue,[39m[22m
+[1m[31m[7m   [0m [91m            ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/chart.js/dist/types/index.d.ts[0m:[93m3762[0m:[93m3[0m[39m[22m
+[1m[31m    [7m3762[0m   data: TData;[39m[22m
+[1m[31m    [7m    [0m [96m  ~~~~[0m[39m[22m
+[1m[31m    The expected type comes from property 'data' which is declared here on type 'ChartDataset<"bar", (number | [number, number] | null)[]> | ChartDatasetCustomTypesPerDataset<"bar", (number | [number, number] | null)[]>'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m5.54 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.87 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m2 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T14:59:47.713Z[39m[37m[22m - Hash: [1m[37m024ddf07cce72cab[39m[37m[22m - Time: [1m[37m881[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.90 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:00:31.582Z[39m[37m[22m - Hash: [1m[37mc585495cc928f01b[39m[37m[22m - Time: [1m[37m761[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.90 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:05:19.721Z[39m[37m[22m - Hash: [1m[37mf3637ac8d2f52fa6[39m[37m[22m - Time: [1m[37m676[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.88 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:06:12.371Z[39m[37m[22m - Hash: [1m[37m655903bffb69beee[39m[37m[22m - Time: [1m[37m497[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.88 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:10:43.049Z[39m[37m[22m - Hash: [1m[37m2688f54df8c1a7db[39m[37m[22m - Time: [1m[37m578[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.91 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:11:05.851Z[39m[37m[22m - Hash: [1m[37m097726a9049e17d4[39m[37m[22m - Time: [1m[37m412[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.html[0m:[93m15[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'setInterval' does not exist on type 'DashboardComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   (click)="setInterval(checkDashboard(), 1000)"[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './dashboard.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component DashboardComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m31.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:12:30.206Z[39m[37m[22m - Hash: [1m[37mec8b702f20fa4047[39m[37m[22m - Time: [1m[37m561[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.html[0m:[93m15[0m:[93m12[0m - [91merror[0m[90m NG5002: [0mEmpty expressions are not allowed[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   (click)="() => {setInterval(checkDashboard(), 1000)}"[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './dashboard.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component DashboardComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.html[0m:[93m15[0m:[93m12[0m - [91merror[0m[90m NG5002: [0mParser Error: Unexpected token '='[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.html[0m:[93m15[0m:[93m12[0m - [91merror[0m[90m NG5002: [0mParser Error: Unexpected token )[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m31.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:12:54.988Z[39m[37m[22m - Hash: [1m[37mdb5472287b9d8054[39m[37m[22m - Time: [1m[37m377[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.html[0m:[93m15[0m:[93m12[0m - [91merror[0m[90m NG5002: [0mParser Error: Unexpected token '{'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.html[0m:[93m15[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'function' does not exist on type 'DashboardComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   (click)="function() {setInterval(checkDashboard(), 1000)}"[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './dashboard.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component DashboardComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m31.87 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:14:27.284Z[39m[37m[22m - Hash: [1m[37m92520a11f1e8312b[39m[37m[22m - Time: [1m[37m510[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.html[0m:[93m15[0m:[93m12[0m - [91merror[0m[90m NG5002: [0mParser Error: Unexpected token '{'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.html[0m:[93m15[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'function' does not exist on type 'DashboardComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   (click)="function() {setInterval(checkDashboard(), 1000)}"[39m[22m
+[1m[31m[7m  [0m [91m           ~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m28[0m:[93m16[0m[39m[22m
+[1m[31m    [7m28[0m   templateUrl: './dashboard.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component DashboardComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.94 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:14:32.482Z[39m[37m[22m - Hash: [1m[37mfb0b820189eb878f[39m[37m[22m - Time: [1m[37m414[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.89 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:17:02.639Z[39m[37m[22m - Hash: [1m[37mf822a3164f1bce7a[39m[37m[22m - Time: [1m[37m603[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.92 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-21T15:20:08.173Z[39m[37m[22m - Hash: [1m[37m24febe88c24c680d[39m[37m[22m - Time: [1m[37m656[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m

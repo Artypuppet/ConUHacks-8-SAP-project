@@ -1,9 +1,9 @@
-from Subject import Subject
-from Day import Day
+from BackEndOld.Subject import Subject
+from BackEndOld.Day import Day
 import pandas as pd
 from datetime import datetime
 from datetime import date
-from Appointment import Appointments
+from BackEndOld.Appointment import Appointments
 import csv
 
 
@@ -16,7 +16,8 @@ class Scheduler(Subject):
         -schedule(self): Tries to shedule """
 
     def __init__(self, csvFileName: str):
-        Subject.__init__(self) #Calling parent constructor to initialize observers
+        # Calling parent constructor to initialize observers
+        Subject.__init__(self)
         self.days = {}
         self.csvFile = []
         self.loadFile(csvFileName)
@@ -32,20 +33,21 @@ class Scheduler(Subject):
 
     def schedule(self):
         self.sortCSVFileByRequestTime(0, len(self.csvFile) - 1)
-        #print(len(self.csvFile)) For debugging
-        #print(self.csvFile) For debugging
+        # print(len(self.csvFile)) For debugging
+        # print(self.csvFile) For debugging
         for ind in range(len(self.csvFile)):
             year, month, day = self.csvFile[ind][0].split(' ')[0].split(
                 "-")
             apptDate = date(int(year), int(month), int(day))
 
-            #If date does not exist in self.day, create a day object and store it at the days 
+            # If date does not exist in self.day, create a day object and store it at the days
             if apptDate not in self.days:
                 self.days[apptDate] = Day(apptDate)
-            
-            #Create an appointment and try to add it to the schedule
-            appointment = Appointments(self.csvFile[ind][1].split(" ")[1], self.csvFile[ind][2])
-            
+
+            # Create an appointment and try to add it to the schedule
+            appointment = Appointments(self.csvFile[ind][1].split(" ")[
+                                       1], self.csvFile[ind][2])
+
             if (self.days[apptDate].add_appointment(appointment)):
                 appointment.status = 'Success'
             else:

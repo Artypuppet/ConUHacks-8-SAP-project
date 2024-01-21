@@ -2799,6 +2799,15 @@
         "hash": "sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg=="
       }
     },
+    "npm:@kurkle/color": {
+      "type": "npm",
+      "name": "npm:@kurkle/color",
+      "data": {
+        "version": "0.3.2",
+        "packageName": "@kurkle/color",
+        "hash": "sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw=="
+      }
+    },
     "npm:@leichtgewicht/ip-codec": {
       "type": "npm",
       "name": "npm:@leichtgewicht/ip-codec",
@@ -5479,6 +5488,15 @@
         "version": "0.7.0",
         "packageName": "chardet",
         "hash": "sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA=="
+      }
+    },
+    "npm:chart.js": {
+      "type": "npm",
+      "name": "npm:chart.js",
+      "data": {
+        "version": "4.4.1",
+        "packageName": "chart.js",
+        "hash": "sha512-C74QN1bxwV1v2PEujhmKjOZ7iUM4w6BWs23Md/6aOZZSlwMzeCIDGuZay++rBgChYru7/+QFeoQW0fQoP534Dg=="
       }
     },
     "npm:chokidar": {
@@ -18832,6 +18850,11 @@
     {
       "source": "npm:chalk",
       "target": "npm:supports-color",
+      "type": "static"
+    },
+    {
+      "source": "npm:chart.js",
+      "target": "npm:@kurkle/color",
       "type": "static"
     },
     {

@@ -1,25 +1,21 @@
-from Scheduler import Scheduler
-from Logger import Logger
-from StatisticalTracker import StatisticalTracker
+from BackEndOld.Scheduler import Scheduler
+from BackEndOld.Logger import Logger
+from BackEndOld.StatisticalTracker import StatisticalTracker
 import json
 import sys
-#sys.setrecursionlimit(15000)
+# sys.setrecursionlimit(15000)
 
-file = "./datafile.csv"
 
-scheduler = Scheduler(file)
+def Driver(csvFilePath: str):
+    file = csvFilePath
 
-#Attach observers
-scheduler.attach(Logger())
-scheduler.attach(StatisticalTracker())
+    scheduler = Scheduler(file)
 
-#Start process
-scheduler.schedule()
+    # Attach observers
+    scheduler.attach(Logger())
+    scheduler.attach(StatisticalTracker())
 
-try:
-    with open("output.json", "w") as file:
-        file.write(json.dumps(StatisticalTracker.types))
-        file.write(json.dumps(StatisticalTracker.overallStats))
-except:
-    print("Could not print to JSON file.\nExiting program...", file = sys.stderr)
-    sys.exit(1)
+    # Start process
+    scheduler.schedule()
+
+    return json.dumps(StatisticalTracker.types), json.dumps(StatisticalTracker.overallStats)

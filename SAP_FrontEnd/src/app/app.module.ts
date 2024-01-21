@@ -18,7 +18,7 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { InputPageComponent } from './Input-page/Input-Page.component'
 import { DashboardComponent } from './dashboard/dashboard.component'
-
+import { ChartDataServiceService } from './Chart-Data-Service/chart-data-service.service'
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -42,7 +42,7 @@ import { DashboardComponent } from './dashboard/dashboard.component'
       },
     ]),
   ],
-  providers: [NbSidebarService, NbMenuService],
+  providers: [NbSidebarService, NbMenuService, ChartDataServiceService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

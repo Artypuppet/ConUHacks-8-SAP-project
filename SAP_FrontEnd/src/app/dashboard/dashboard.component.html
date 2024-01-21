@@ -1,1 +1,24 @@
-<p>dashboard works!</p>
+<div>
+  <canvas [style.width]="'600px'" #Revenue>{{
+    barChartRevenue
+  }}</canvas>
+  <canvas [style.width]="'600px'" #Loss>{{ barChartLoss }}</canvas>
+  <canvas [style.width]="'600px'" #TotalApptNum>{{
+    barChartRevApptNum
+  }}</canvas>
+  <canvas [style.width]="'600px'" #NumOfTurnAway>{{
+    barChartTurnAwayNum
+  }}</canvas>
+</div>
+<button
+  *ngIf="!initialized"
+  type="button"
+  nbButton
+  status="warning"
+  [style.margin]="'auto'"
+  routerLink="/dashboard"
+  routerLinkActive="true"
+  (click)="onClick()"
+>
+  Click To check the dashboard!
+</button>

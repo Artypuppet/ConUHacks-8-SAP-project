@@ -1,6 +1,6 @@
 from datetime import datetime, date
-from Appointment import Appointments
-from ServiceBay import ServiceBay
+from BackEndOld.Appointment import Appointments
+from BackEndOld.ServiceBay import ServiceBay
 
 
 class Day:
@@ -24,13 +24,13 @@ class Day:
         added = False
         for bay in self.SB:
             availList.append(bay.balanceOfCarType(inAppt))
-        
-        #For debugging
-        #print(availList)
-        #print(self.date)
-        #print(inAppt.appt_start)
-        #print(inAppt.appt_end)
-        #print(self.appts)
+
+        # For debugging
+        # print(availList)
+        # print(self.date)
+        # print(inAppt.appt_start)
+        # print(inAppt.appt_end)
+        # print(self.appts)
 
         for type in availList:
             if type.lower in ['compact']:
