@@ -39,6 +39,11 @@ class Scheduler(Subject):
                 "-")
             apptDate = date(int(year), int(month), int(day))
 
+
+            #looking for timetravelers
+            if (datetime.strptime(self.csvFile[ind][1], '%y-%m-%d %H:%M') < datetime.strptime(self.csvFile[ind][0], '%y-%m=%d %H:%M')):
+                continue
+
             #If date does not exist in self.day, create a day object and store it at the days 
             if apptDate not in self.days:
                 self.days[apptDate] = Day(apptDate)
