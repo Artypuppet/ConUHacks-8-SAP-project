@@ -4,7 +4,7 @@ from StatisticalTracker import StatisticalTracker
 
 #sys.setrecursionlimit(15000)
 
-file = "BackEnd/datafile.csv"
+file = "./datafile.csv"
 
 scheduler = Scheduler(file)
 
@@ -15,4 +15,5 @@ scheduler.attach(StatisticalTracker())
 #Start process
 scheduler.schedule()
 
-print(StatisticalTracker.types)
+#print(StatisticalTracker.types)
+print(StatisticalTracker.totalRevenue,StatisticalTracker.totalRevenueLoss,StatisticalTracker.totalTurnawayNum, StatisticalTracker.totalAppointmentNum)

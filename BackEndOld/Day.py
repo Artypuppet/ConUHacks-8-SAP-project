@@ -1,10 +1,10 @@
-import datetime as dt
+from datetime import datetime, date
 from Appointment import Appointments
 from ServiceBay import ServiceBay
 
 
 class Day:
-    def __init__(self, date: dt.date):
+    def __init__(self, date: datetime.date):
         self.date = date
 
         self.SB = [ServiceBay(date) for _ in range(10)]
@@ -25,7 +25,12 @@ class Day:
         for bay in self.SB:
             availList.append(bay.balanceOfCarType(inAppt))
         
-        print(availList)
+        #For debugging
+        #print(availList)
+        #print(self.date)
+        #print(inAppt.appt_start)
+        #print(inAppt.appt_end)
+        #print(self.appts)
 
         for type in availList:
             if type.lower in ['compact']:
@@ -59,6 +64,7 @@ class Day:
             for i, type in enumerate(availList):
                 if type in ['Empty']:
                     self.SB[i].appt.append(inAppt)
+                    self.appts.append(inAppt)
                     added = True
                     break
 

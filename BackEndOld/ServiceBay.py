@@ -1,4 +1,4 @@
-import datetime as dt
+from datetime import datetime as dt
 from Appointment import Appointments
 
 class ServiceBay:
@@ -8,7 +8,8 @@ class ServiceBay:
 
     def balanceOfCarType(self, Appt: Appointments):
         for existingAppt in self.appt:
-            if (Appt.appt_start < existingAppt.appt_end or
-                Appt.appt_end > existingAppt.appt_start):
+            if (dt.strptime(Appt.appt_start, "%H:%M") < dt.strptime(existingAppt.appt_end, "%H:%M") and
+                dt.strptime(Appt.appt_start, "%H:%M") > dt.strptime(existingAppt.appt_start, "%H:%M")) or (dt.strptime(Appt.appt_end, "%H:%M") < dt.strptime(existingAppt.appt_end, "%H:%M") and
+                dt.strptime(Appt.appt_end, "%H:%M") > dt.strptime(existingAppt.appt_start, "%H:%M")):
                 return existingAppt.car_type
         return 'Empty'
