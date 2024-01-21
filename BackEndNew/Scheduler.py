@@ -1,3 +1,4 @@
+from typing import Required
 from Subject import Subject
 from Day import Day
 import pandas as pd
@@ -35,16 +36,27 @@ class Scheduler(Subject):
         #print(len(self.csvFile)) For debugging
         #print(self.csvFile) For debugging
         for ind in range(len(self.csvFile)):
-            year, month, day = self.csvFile[ind][0].split(' ')[0].split(
+            year, month, day,  = self.csvFile[ind][0].split(' ')[0].split(
                 "-")
+
             apptDate = date(int(year), int(month), int(day))
+
+            walkIn = False
+
+
+            #looks for timetravelers and walk-ins
+            if (datetime.strptime(self.csvFile[ind][1], '%Y-%m-%d %H:%M') < datetime.strptime(self.csvFile[ind][0], '%Y-%m-%d %H:%M')):
+                continue
+            elif (datetime.strptime(self.csvFile[ind][1], '%Y-%m-%d %H:%M') == datetime.strptime(self.csvFile[ind][0], '%Y-%m-%d %H:%M')):
+                walkIn = True
+
 
             #If date does not exist in self.day, create a day object and store it at the days 
             if apptDate not in self.days:
                 self.days[apptDate] = Day(apptDate)
             
             #Create an appointment and try to add it to the schedule
-            appointment = Appointments(self.csvFile[ind][1].split(" ")[1], self.csvFile[ind][2])
+            appointment = Appointments(self.csvFile[ind][1].split(" ")[1], self.csvFile[ind][2], walkIn)
             
             if (self.days[apptDate].add_appointment(appointment)):
                 appointment.status = 'Success'
