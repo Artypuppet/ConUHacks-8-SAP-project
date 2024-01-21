@@ -38,14 +38,8 @@ class Scheduler(Subject):
         for ind in range(len(self.csvFile)):
             year, month, day,  = self.csvFile[ind][0].split(' ')[0].split(
                 "-")
-            hour, minute = self.csvFile[ind][0].split(' ')[1].split(':')
-            apptDate = date(int(year), int(month), int(day), int(hour), int(minute))
 
-            apptYear, apptMonth, apptDay, = self.csvFile[ind][1].split(' ')[1].split(
-                "-")
-            apptHour, apptMinute = self.csvFile[ind][1].split(' ')[1].split(':')
-            
-            reqDate = date(int(apptYear), int(apptMonth), int(apptDay), int(apptHour), int(apptMinute))
+            apptDate = date(int(year), int(month), int(day))
 
             walkIn = False
 
