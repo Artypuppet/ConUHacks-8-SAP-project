@@ -10,13 +10,13 @@ class Appointments:
         self.status = "N/A"
 
         if car.lower() in ["compact", "medium", "full-size"]:
-            self.appt_end = self.appt_start + timedelta(minutes=30)
+            self.appt_end = self.appt_start + str(timedelta(minutes=30))
             self.car_rev = 150
         elif car.lower() == "class 1 truck":
-            self.appt_end = self.appt_start + timedelta(hours=1)
+            self.appt_end = self.appt_start + str(timedelta(hours=1))
             self.car_rev = 250
         elif car.lower() == "class 2 truck":
-            self.appt_end = self.appt_start + timedelta(hours=2)
+            self.appt_end = self.appt_start + str(timedelta(hours=2))
             self.car_rev = 700
 
     def updateStatus(self, status):

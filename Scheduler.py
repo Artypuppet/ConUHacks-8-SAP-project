@@ -12,22 +12,26 @@ class Scheduler(Subject):
         self.csvFile = pd.read_csv(csvFileName)
 
     def schedule(self):
-        self.csvFile.sort()
-        for row in self.csvFile:
-            year, month, day = row[0].split(' ')[0].split("-")
-            date = date(year, month, day)
-            if date in self.days:
-                appointment = Appointments(row[1], row[2])
-                if (self.days[date].add_appointment()):
-                    appointment.status('Success')
-                    self.Notify(appointment)
-                else:
-                    appointment.status('Turnaway')
+        self.sortCSVFileByRequestTime(0, len(self.csvFile) - 1)
+        self.csvFile.to_csv("output.csv")
+        for ind in self.csvFile.index:
+            year, month, day = self.csvFile.loc[ind, "Appointment"].split(' ')[0].split(
+                "-")
+            apptDate = date(int(year), int(month), int(day))
+            if apptDate not in self.days:
+                self.days[apptDate] = Day(apptDate)
+            appointment = Appointments(
+                self.csvFile["Appointment"][ind], self.csvFile["CarType"][ind])
+            if (self.days[apptDate].add_appointment(appointment)):
+                appointment.status = 'Success'
+                self.Notify(appointment)
+            else:
+                appointment.status = "Turnaway"
 
     def sortCSVFileByRequestTime(self, low: int, high: int) -> None:
         if (low >= high):
             return None
-        middle = low + high / 2
+        middle = int((low + high) / 2)
         self.sortCSVFileByRequestTime(low, middle)
         self.sortCSVFileByRequestTime(middle + 1, high)
         self.merge(low, middle, high)
@@ -40,20 +44,20 @@ class Scheduler(Subject):
         k = low
         while i < len(left) and j < len(right):
             if (self.compareRequestTime(left[0][i], right[0][j])):
-                self.csvFile.iloc[k] = left[i].copy()
+                self.csvFile.iloc[k] = left.iloc[i].copy()
                 k += 1
                 i += 1
             else:
-                self.csvFile.iloc[k] = right[j].copy()
+                self.csvFile.iloc[k] = right.iloc[j].copy()
                 k += 1
                 j += 1
         while i < len(left):
-            self.csvFile.iloc[k] = left[i].copy()
+            self.csvFile.iloc[k] = left.iloc[i].copy()
             k += 1
             i += 1
 
         while j < len(right):
-            self.csvFile.iloc[k] = right[j].copy()
+            self.csvFile.iloc[k] = right.iloc[j].copy()
             k += 1
             j += 1
 
