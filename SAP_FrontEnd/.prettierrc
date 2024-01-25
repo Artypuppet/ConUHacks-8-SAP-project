@@ -3,9 +3,10 @@
     "overrides": [
         {
             "files": [
-                "*.html"
+                "*.html, *.ts"
             ],
             "options": {
+                "tabWidth": 4,
                 "printWidth": 70
             }
         }

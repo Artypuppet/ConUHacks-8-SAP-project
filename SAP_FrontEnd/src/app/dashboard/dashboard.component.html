@@ -1,24 +1,17 @@
-<div>
-  <canvas [style.width]="'600px'" #Revenue>{{
-    barChartRevenue
-  }}</canvas>
-  <canvas [style.width]="'600px'" #Loss>{{ barChartLoss }}</canvas>
-  <canvas [style.width]="'600px'" #TotalApptNum>{{
-    barChartRevApptNum
-  }}</canvas>
-  <canvas [style.width]="'600px'" #NumOfTurnAway>{{
-    barChartTurnAwayNum
-  }}</canvas>
-</div>
-<button
-  *ngIf="!initialized"
-  type="button"
-  nbButton
-  status="warning"
-  [style.margin]="'auto'"
-  routerLink="/dashboard"
-  routerLinkActive="true"
-  (click)="onClick()"
+<nb-card
+  [style.height]="'3000px'"
+  accent="danger"
+  size="tiny"
+  [nbSpinner]="chartData.barCharData == null"
+  nbSpinnerStatus="danger"
+  nbSpinnerSize="large"
+  nbSpinnerMessage="Wating for Data. Hang tight!"
 >
-  Click To check the dashboard!
-</button>
+  <div>
+    <canvas [style.margin]="'40px'" id="Revenue"> </canvas>
+    <canvas [style.margin]="'40px'" id="Loss"> </canvas>
+    <canvas [style.margin]="'40px'" id="TotalApptNum"> </canvas>
+    <canvas [style.margin]="'40px'" id="NumOfTurnAway"> </canvas>
+    <canvas [style.margin]="'40px'" id="FinalMetrics"> </canvas>
+  </div>
+</nb-card>

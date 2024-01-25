@@ -5024,6 +5024,42 @@
         "hash": "sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ=="
       }
     },
+    "npm:angular": {
+      "type": "npm",
+      "name": "npm:angular",
+      "data": {
+        "version": "1.8.3",
+        "packageName": "angular",
+        "hash": "sha512-5qjkWIQQVsHj4Sb5TcEs4WZWpFeVFHXwxEBHUhrny41D8UrBAd6T/6nPPAsLngJCReIOqi95W3mxdveveutpZw=="
+      }
+    },
+    "npm:angular-chart.js": {
+      "type": "npm",
+      "name": "npm:angular-chart.js",
+      "data": {
+        "version": "1.1.1",
+        "packageName": "angular-chart.js",
+        "hash": "sha512-6lqkeQvoEOMqtIzHLeOC68fdeqjdgeQ4b3bUG3Lm6X1Y6IBM0m91G6VuVA3EV0puwPuIWz4VYkzjd0DPHhIcpA=="
+      }
+    },
+    "npm:chart.js@2.3.0": {
+      "type": "npm",
+      "name": "npm:chart.js@2.3.0",
+      "data": {
+        "version": "2.3.0",
+        "packageName": "chart.js",
+        "hash": "sha512-LwJ6j1FNneojxFYewnz9QDQyjV++KN2s/Lgm0eipDUaKV3Fj5jOA3xtJg7AUGFcbhsYB4+Kn16c1bXwRxbOXow=="
+      }
+    },
+    "npm:chart.js": {
+      "type": "npm",
+      "name": "npm:chart.js",
+      "data": {
+        "version": "4.4.1",
+        "packageName": "chart.js",
+        "hash": "sha512-C74QN1bxwV1v2PEujhmKjOZ7iUM4w6BWs23Md/6aOZZSlwMzeCIDGuZay++rBgChYru7/+QFeoQW0fQoP534Dg=="
+      }
+    },
     "npm:ansi-colors": {
       "type": "npm",
       "name": "npm:ansi-colors",
@@ -5645,13 +5681,22 @@
         "hash": "sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA=="
       }
     },
-    "npm:chart.js": {
+    "npm:chartjs-color": {
       "type": "npm",
-      "name": "npm:chart.js",
+      "name": "npm:chartjs-color",
       "data": {
-        "version": "4.4.1",
-        "packageName": "chart.js",
-        "hash": "sha512-C74QN1bxwV1v2PEujhmKjOZ7iUM4w6BWs23Md/6aOZZSlwMzeCIDGuZay++rBgChYru7/+QFeoQW0fQoP534Dg=="
+        "version": "2.4.1",
+        "packageName": "chartjs-color",
+        "hash": "sha512-haqOg1+Yebys/Ts/9bLo/BqUcONQOdr/hoEr2LLTRl6C5LXctUdHxsCYfvQVg5JIxITrfCNUDr4ntqmQk9+/0w=="
+      }
+    },
+    "npm:chartjs-color-string": {
+      "type": "npm",
+      "name": "npm:chartjs-color-string",
+      "data": {
+        "version": "0.6.0",
+        "packageName": "chartjs-color-string",
+        "hash": "sha512-TIB5OKn1hPJvO7JcteW4WY/63v6KwEdt6udfnDE9iCAZgy+V4SrbSxoIbTw/xkUIapjEI4ExGtD0+6D3KyFd7A=="
       }
     },
     "npm:chokidar": {
@@ -9164,6 +9209,15 @@
         "hash": "sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg=="
       }
     },
+    "npm:moment": {
+      "type": "npm",
+      "name": "npm:moment",
+      "data": {
+        "version": "2.30.1",
+        "packageName": "moment",
+        "hash": "sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how=="
+      }
+    },
     "npm:mrmime": {
       "type": "npm",
       "name": "npm:mrmime",
@@ -11781,6 +11835,11 @@
       {
         "source": "SAP_FrontEnd",
         "target": "npm:@nebular/theme",
+        "type": "static"
+      },
+      {
+        "source": "SAP_FrontEnd",
+        "target": "npm:angular-chart.js",
         "type": "static"
       },
       {
@@ -18577,6 +18636,30 @@
         "type": "static"
       }
     ],
+    "npm:angular-chart.js": [
+      {
+        "source": "npm:angular-chart.js",
+        "target": "npm:angular",
+        "type": "static"
+      },
+      {
+        "source": "npm:angular-chart.js",
+        "target": "npm:chart.js@2.3.0",
+        "type": "static"
+      }
+    ],
+    "npm:chart.js@2.3.0": [
+      {
+        "source": "npm:chart.js@2.3.0",
+        "target": "npm:chartjs-color",
+        "type": "static"
+      },
+      {
+        "source": "npm:chart.js@2.3.0",
+        "target": "npm:moment",
+        "type": "static"
+      }
+    ],
     "npm:ansi-escapes": [
       {
         "source": "npm:ansi-escapes",
@@ -19338,6 +19421,25 @@
       {
         "source": "npm:chart.js",
         "target": "npm:@kurkle/color",
+        "type": "static"
+      }
+    ],
+    "npm:chartjs-color": [
+      {
+        "source": "npm:chartjs-color",
+        "target": "npm:chartjs-color-string",
+        "type": "static"
+      },
+      {
+        "source": "npm:chartjs-color",
+        "target": "npm:color-convert",
+        "type": "static"
+      }
+    ],
+    "npm:chartjs-color-string": [
+      {
+        "source": "npm:chartjs-color-string",
+        "target": "npm:color-name",
         "type": "static"
       }
     ],

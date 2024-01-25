@@ -1,9 +1,9 @@
-from BackEndOld.Subject import Subject
-from BackEndOld.Day import Day
+from .Subject import Subject
+from .Day import Day
 import pandas as pd
 from datetime import datetime
 from datetime import date
-from BackEndOld.Appointment import Appointments
+from .Appointment import Appointments
 import csv
 
 

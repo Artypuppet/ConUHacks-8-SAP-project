@@ -1,6 +1,6 @@
-from BackEndOld.Scheduler import Scheduler
-from BackEndOld.Logger import Logger
-from BackEndOld.StatisticalTracker import StatisticalTracker
+from .Scheduler import Scheduler
+from .Logger import Logger
+from .StatisticalTracker import StatisticalTracker
 import json
 import sys
 # sys.setrecursionlimit(15000)

@@ -1,5 +1,5 @@
 class Subject:
-    
+
     def __init__(self):
         self.observers = set()
 
@@ -11,7 +11,6 @@ class Subject:
         """Detaches observer from subject"""
         self.observers.remove(observer)
 
-    def notify(self, appointment):   
+    def notify(self, appointment):
         for observer in self.observers:
             observer.update(appointment)
-

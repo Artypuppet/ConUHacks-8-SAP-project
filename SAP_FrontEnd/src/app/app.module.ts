@@ -1,15 +1,16 @@
 import { Input, NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 import {
-  NbThemeModule,
-  NbInputModule,
-  NbCardModule,
-  NbLayoutModule,
-  NbSidebarService,
-  NbSidebarModule,
-  NbMenuModule,
-  NbMenuService,
-  NbIconModule,
+    NbThemeModule,
+    NbInputModule,
+    NbCardModule,
+    NbLayoutModule,
+    NbSidebarService,
+    NbSidebarModule,
+    NbMenuModule,
+    NbMenuService,
+    NbIconModule,
+
 } from '@nebular/theme'
 import { RouterModule } from '@angular/router'
 import { HttpClientModule } from '@angular/common/http'
@@ -20,29 +21,29 @@ import { InputPageComponent } from './Input-page/Input-Page.component'
 import { DashboardComponent } from './dashboard/dashboard.component'
 import { ChartDataServiceService } from './Chart-Data-Service/chart-data-service.service'
 @NgModule({
-  declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NbThemeModule.forRoot({ name: 'dark' }),
-    NbInputModule,
-    NbCardModule,
-    NbLayoutModule,
-    NbEvaIconsModule,
-    InputPageComponent,
-    NbSidebarModule,
-    NbMenuModule.forRoot(),
-    NbIconModule,
-    HttpClientModule,
-    RouterModule.forRoot([
-      { path: 'dashboard', component: DashboardComponent },
-      {
-        path: '',
-        component: InputPageComponent,
-      },
-    ]),
-  ],
-  providers: [NbSidebarService, NbMenuService, ChartDataServiceService],
-  bootstrap: [AppComponent],
+    declarations: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        NbThemeModule.forRoot({ name: 'dark' }),
+        NbInputModule,
+        NbCardModule,
+        NbLayoutModule,
+        NbEvaIconsModule,
+        InputPageComponent,
+        NbSidebarModule,
+        NbMenuModule.forRoot(),
+        NbIconModule,
+        HttpClientModule,
+        RouterModule.forRoot([
+            { path: 'dashboard', component: DashboardComponent },
+            {
+                path: '',
+                component: InputPageComponent,
+            },
+        ]),
+    ],
+    providers: [NbSidebarService, NbMenuService, ChartDataServiceService],
+    bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

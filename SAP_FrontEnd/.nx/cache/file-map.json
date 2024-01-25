@@ -14,6 +14,7 @@
     "@nebular/auth": "^12.0.0",
     "@nebular/eva-icons": "^12.0.0",
     "@nebular/theme": "^12.0.0",
+    "angular-chart.js": "^1.1.1",
     "chart.js": "^4.4.1",
     "eva-icons": "^1.1.3",
     "rxjs": "~7.8.0",
@@ -43,31 +44,23 @@
     "nonProjectFiles": [
       {
         "file": "src/app/app.module.ts",
-        "hash": "1309045787609433129"
-      },
-      {
-        "file": "src/app/dashboard/dashboard.component.ts",
-        "hash": "440163214688736600"
-      },
-      {
-        "file": "src/app/dashboard/dashboard.component.html",
-        "hash": "8939638375053163716"
-      },
-      {
-        "file": "src/app/Chart-Data-Service/chart-data-service.service.spec.ts",
-        "hash": "13168486191881323633"
-      },
-      {
-        "file": "src/app/Input-page/Input-Page.component.html",
-        "hash": "166646144042081117"
-      },
-      {
-        "file": "src/app/Input-page/Input-Page.component.ts",
-        "hash": "11491283430333393149"
+        "hash": "8268646313171935871"
       },
       {
         "file": "src/app/Chart-Data-Service/chart-data-service.service.ts",
-        "hash": "275487743049656030"
+        "hash": "3663169737355988490"
+      },
+      {
+        "file": "src/app/dashboard/dashboard.component.ts",
+        "hash": "3791647116771781414"
+      },
+      {
+        "file": "src/app/Input-page/Input-Page.component.ts",
+        "hash": "13013378902820936849"
+      },
+      {
+        "file": "src/app/dashboard/dashboard.component.html",
+        "hash": "5053699729271576995"
       }
     ],
     "projectFileMap": {
@@ -82,7 +75,7 @@
         },
         {
           "file": ".prettierrc",
-          "hash": "5847621106199088115"
+          "hash": "13493888985118495656"
         },
         {
           "file": ".vscode/extensions.json",
@@ -106,11 +99,11 @@
         },
         {
           "file": "package-lock.json",
-          "hash": "2319216826142827958"
+          "hash": "5337154055821771368"
         },
         {
           "file": "package.json",
-          "hash": "12765323167452982840",
+          "hash": "17708113886931747873",
           "deps": [
             "npm:@angular/animations",
             "npm:@angular/cdk",
@@ -124,6 +117,7 @@
             "npm:@nebular/auth",
             "npm:@nebular/eva-icons",
             "npm:@nebular/theme",
+            "npm:angular-chart.js",
             "npm:chart.js",
             "npm:eva-icons",
             "npm:rxjs",
@@ -153,8 +147,23 @@
           "hash": "15228761584796292505"
         },
         {
+          "file": "src/app/Chart-Data-Service/chart-data-service.service.spec.ts",
+          "hash": "13168486191881323633",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/Chart-Data-Service/chart-data-service.service.ts",
+          "hash": "3074605534158179037",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
           "file": "src/app/Input-page/Input-Page.component.html",
-          "hash": "8595080140032869775"
+          "hash": "15326278823826008473"
         },
         {
           "file": "src/app/Input-page/Input-Page.component.scss",
@@ -169,7 +178,7 @@
         },
         {
           "file": "src/app/Input-page/Input-Page.component.ts",
-          "hash": "11459377634982507888",
+          "hash": "16470014129726680742",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -188,7 +197,7 @@
         },
         {
           "file": "src/app/app.component.html",
-          "hash": "3862799758870101319"
+          "hash": "17651112957305708324"
         },
         {
           "file": "src/app/app.component.scss",
@@ -204,7 +213,7 @@
         },
         {
           "file": "src/app/app.component.ts",
-          "hash": "9847986299318058445",
+          "hash": "14191629717024617370",
           "deps": [
             "npm:@angular/core",
             "npm:@nebular/theme"
@@ -212,7 +221,7 @@
         },
         {
           "file": "src/app/app.module.ts",
-          "hash": "10052664043955557945",
+          "hash": "1309045787609433129",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/platform-browser",
@@ -224,7 +233,7 @@
         },
         {
           "file": "src/app/dashboard/dashboard.component.html",
-          "hash": "4894489786295920269"
+          "hash": "10383116847552261889"
         },
         {
           "file": "src/app/dashboard/dashboard.component.scss",
@@ -239,12 +248,11 @@
         },
         {
           "file": "src/app/dashboard/dashboard.component.ts",
-          "hash": "2735978750552836623",
+          "hash": "6948399577502041960",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
-            "npm:@nebular/theme",
-            "npm:chart.js"
+            "npm:@nebular/theme"
           ]
         },
         {

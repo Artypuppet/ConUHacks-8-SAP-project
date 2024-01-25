@@ -1,4 +1,4 @@
-from BackEndOld.Observer import Observer
+from .Observer import Observer
 
 
 class StatisticalTracker(Observer):

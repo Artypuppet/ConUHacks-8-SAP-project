@@ -1,5 +1,6 @@
-from Observer import Observer
+from .Observer import Observer
 import sys
+
 
 class Logger(Observer):
 
@@ -10,9 +11,10 @@ class Logger(Observer):
             print("File could not open.", file=sys.stderr)
             print("Exiting program...")
             sys.exit(1)
-    
+
     def update(self, appointment):
         try:
-            self.file.write(appointment.appt_start+","+appointment.car_type+","+appointment.status+"\n")
+            self.file.write(appointment.appt_start+"," +
+                            appointment.car_type+","+appointment.status+"\n")
         except:
             print("Could not write to loggerfile.txt", file=sys.stderr)

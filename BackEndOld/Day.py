@@ -1,6 +1,6 @@
 from datetime import datetime, date
-from BackEndOld.Appointment import Appointments
-from BackEndOld.ServiceBay import ServiceBay
+from .Appointment import Appointments
+from .ServiceBay import ServiceBay
 
 
 class Day:

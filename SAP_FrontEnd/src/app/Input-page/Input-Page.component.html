@@ -1,11 +1,14 @@
 <div>
-  <nb-card>
+  <nb-card
+    accent="danger"
+    size="tiny"
+    [nbSpinner]="loading"
+    nbSpinnerStatus="danger"
+    nbSpinnerSize="large"
+  >
     <nb-card-body>
       <form [formGroup]="form" (ngSubmit)="onSubmit()">
-        <nb-form-field
-          [style.margin]="'auto'"
-          [style.margin-bottom]="'2%'"
-        >
+        <nb-form-field [style.margin]="'auto'" [style.margin-bottom]="'2%'">
           <label class="label">Upload a CSV file</label>
           <input
             [style.display]="'none'"
@@ -42,6 +45,7 @@
               type="button"
               nbButton
               status="success"
+              routerLink="/dashboard"
               [style.position]="'absolute'"
               [style.margin-left]="'80%'"
               (click)="uploadFile(i)"

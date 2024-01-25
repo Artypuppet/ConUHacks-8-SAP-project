@@ -1,0 +1,1266 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: setup)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠧[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m5.54 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m543.63 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m333.17 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m [96m31.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m6.44 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T22:24:44.532Z[39m[37m[22m - Hash: [1m[37m22551c9591e8adca[39m[37m[22m - Time: [1m[37m8609[39m[37m[22mms[0m[39m
+[1m[33m[39m[22m
+[1m[33m[0m[33mWarning: [39m[33m[0mC:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\node_modules\@nebular\eva-icons\fesm2022\nebular-eva-icons.mjs depends on 'eva-icons'. CommonJS or AMD dependencies can cause optimization bailouts.[39m[22m
+[1m[33mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies[39m[22m
+[1m[33m[39m[22m
+[1m[33m[39m[22m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m31.86 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T22:26:56.607Z[39m[37m[22m - Hash: [1m[37m6de7e0d378845ca2[39m[37m[22m - Time: [1m[37m885[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m31.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T22:27:59.115Z[39m[37m[22m - Hash: [1m[37m8343e1d6ce28a009[39m[37m[22m - Time: [1m[37m720[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.29 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T22:29:46.050Z[39m[37m[22m - Hash: [1m[37mab332b5d3c3d3ff8[39m[37m[22m - Time: [1m[37m556[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.33 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T22:30:43.949Z[39m[37m[22m - Hash: [1m[37mbeb4cd1ee392bc52[39m[37m[22m - Time: [1m[37m483[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.42 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T22:32:08.192Z[39m[37m[22m - Hash: [1m[37mced80b7af508958b[39m[37m[22m - Time: [1m[37m775[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.99 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T22:33:55.343Z[39m[37m[22m - Hash: [1m[37m3a61956e15e78920[39m[37m[22m - Time: [1m[37m835[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m13[0m - [91merror[0m[90m TS7034: [0mVariable 'revenue' implicitly has type 'any[]' in some locations where its type cannot be determined.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         let revenue = [][39m[22m
+[1m[31m[7m  [0m [91m            ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m78[0m:[93m31[0m - [91merror[0m[90m TS7005: [0mVariable 'revenue' implicitly has an 'any[]' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m78[0m                         data: revenue,[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m5.07 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.67 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m2 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T22:46:28.499Z[39m[37m[22m - Hash: [1m[37m6024e004acbf7e42[39m[37m[22m - Time: [1m[37m1534[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/dashboard/dashboard.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: C:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd\src\app\dashboard\dashboard.component.ts: Unterminated string constant. (18:8)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m 16 |[39m[31m     }[0m[39m[22m
+[1m[31m[0m [90m 17 |[39m[31m     ngOnIt() {[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 18 |[39m[31m         [32m'[{"totalRevenue": 963000, "totalRevenueLoss": -264600, "totalAppointmentNum": 6420, "totalTurnawayNum": 1764},;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m         [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 19 |[39m[31m         {[0m[39m[22m
+[1m[31m[0m [90m 20 |[39m[31m             [32m"totalRevenue"[39m[31m[33m;[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 21 |[39m[31m             [35m941400[39m[31m[33m,[39m[31m [32m"totalRevenueLoss"[39m[31m[33m;[39m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m44[0m:[93m120[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m44[0m         '[{"totalRevenue": 963000, "totalRevenueLoss": -264600, "totalAppointmentNum": 6420, "totalTurnawayNum": 1764},[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                                       [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 941400, "totalRevenueLoss": -261600, "totalAppointmentNum": 6276, "totalTurnawayNum": 1744 },[39m[22m
+[1m[31m[7m  [0m [91m                        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m27[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 941400, "totalRevenueLoss": -261600, "totalAppointmentNum": 6276, "totalTurnawayNum": 1744 },[39m[22m
+[1m[31m[7m  [0m [91m                  [39m[22m[1m[31m        ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 941400, "totalRevenueLoss": -261600, "totalAppointmentNum": 6276, "totalTurnawayNum": 1744 },[39m[22m
+[1m[31m[7m  [0m [91m                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m55[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 941400, "totalRevenueLoss": -261600, "totalAppointmentNum": 6276, "totalTurnawayNum": 1744 },[39m[22m
+[1m[31m[7m  [0m [91m                                                      ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m85[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 941400, "totalRevenueLoss": -261600, "totalAppointmentNum": 6276, "totalTurnawayNum": 1744 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m87[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 941400, "totalRevenueLoss": -261600, "totalAppointmentNum": 6276, "totalTurnawayNum": 1744 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                      ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m111[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 941400, "totalRevenueLoss": -261600, "totalAppointmentNum": 6276, "totalTurnawayNum": 1744 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                    [39m[22m[1m[31m                                          ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m119[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 941400, "totalRevenueLoss": -261600, "totalAppointmentNum": 6276, "totalTurnawayNum": 1744 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                                      ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 955800, "totalRevenueLoss": -266400, "totalAppointmentNum": 6372, "totalTurnawayNum": 1776 },[39m[22m
+[1m[31m[7m  [0m [91m                        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m27[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 955800, "totalRevenueLoss": -266400, "totalAppointmentNum": 6372, "totalTurnawayNum": 1776 },[39m[22m
+[1m[31m[7m  [0m [91m                          ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 955800, "totalRevenueLoss": -266400, "totalAppointmentNum": 6372, "totalTurnawayNum": 1776 },[39m[22m
+[1m[31m[7m  [0m [91m                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m55[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 955800, "totalRevenueLoss": -266400, "totalAppointmentNum": 6372, "totalTurnawayNum": 1776 },[39m[22m
+[1m[31m[7m  [0m [91m                                                      ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91m[39m[22m[1m[31mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m85[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 955800, "totalRevenueLoss": -266400, "totalAppointmentNum": 6372, "totalTurnawayNum": 1776 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m87[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 955800, "totalRevenueLoss": -266400, "totalAppointmentNum": 6372, "totalTurnawayNum": 1776 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                      ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m111[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 955800, "totalRevenueLoss": -266400, "totalAppointmentNum": 6372, "totalTurnawayNum": 1776 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                              ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m119[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 955800, "totalRevenueLoss": -266400, "totalAppointmentNum": 6372, "totalTurnawayNum": 1776 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                                      ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 1703000, "totalRevenueLoss": -278000, "totalAppointmentNum": 6812, "totalTurnawayNum": 1112 },[39m[22m
+[1m[31m[7m  [0m [91m         [39m[22m[1m[31m               ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m27[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 1703000, "totalRevenueLoss": -278000, "totalAppointmentNum": 6812, "totalTurnawayNum": 1112 },[39m[22m
+[1m[31m[7m  [0m [91m                          ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 1703000, "totalRevenueLoss": -278000, "totalAppointmentNum": 6812, "totalTurnawayNum": 1112 },[39m[22m
+[1m[31m[7m  [0m [91m                                                     ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m56[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 1703000, "totalRevenueLoss": -278000, "totalAppointmentNum": 6812, "totalTurnawayNum": 1112 },[39m[22m
+[1m[31m[7m  [0m [91m                                                       ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m86[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 1703000, "totalRevenueLoss": -278000, "totalAppointmentNum": 6812, "totalTurnawayNum": 1112 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                     ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m88[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 1703000, "totalRevenueLoss": -278000, "totalAppointmentNum": 6812, "totalTurnawayNum": 1112 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                   [39m[22m[1m[31m                    ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m112[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 1703000, "totalRevenueLoss": -278000, "totalAppointmentNum": 6812, "totalTurnawayNum": 1112 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                               ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m120[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 1703000, "totalRevenueLoss": -278000, "totalAppointmentNum": 6812, "totalTurnawayNum": 1112 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                                       ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 4975600, "totalRevenueLoss": -414400, "totalAppointmentNum": 7108, "totalTurnawayNum": 592 }]'[39m[22m
+[1m[31m[7m  [0m [91m                        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m27[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 4975600, "totalRevenueLoss": -414400, "totalAppointmentNum": 7108, "totalTurnawayNum": 592 }]'[39m[22m
+[1m[31m[7m  [0m [91m                          ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 4975600, "totalRevenueLoss": -414400, "totalAppointmentNum": 7108, "totalTurnawayNum": 592 }]'[39m[22m
+[1m[31m[7m  [0m [91m                                                     ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[22m[1m[31m[39m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m56[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 4975600, "totalRevenueLoss": -414400, "totalAppointmentNum": 7108, "totalTurnawayNum": 592 }]'[39m[22m
+[1m[31m[7m  [0m [91m                                                       ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m86[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 4975600, "totalRevenueLoss": -414400, "totalAppointmentNum": 7108, "totalTurnawayNum": 592 }]'[39m[22m
+[1m[31m[7m  [0m [91m                                                                                     ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m88[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 4975600, "totalRevenueLoss": -414400, "totalAppointmentNum": 7108, "totalTurnawayNum": 592 }]'[39m[22m
+[1m[31m[7m  [0m [91m                                                                                       ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m112[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 4975600, "totalRevenueLoss": -414400, "totalAppointmentNum": 7108, "totalTurnawayNum": 592 }]'[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                               ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m119[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 4975600, "totalRevenueLoss": -414400, "totalAppointmentNum": 7108, "totalTurnawayNum": 592 }]'[39m[22m
+[1m[31m[7m  [0m [91m                  [39m[22m[1m[31m                                                                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m121[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 4975600, "totalRevenueLoss": -414400, "totalAppointmentNum": 7108, "totalTurnawayNum": 592 }]'[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                                        [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m          [2m | [22mvendor [2m | [22m [96m5.54 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.44 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m2 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T22:56:34.132Z[39m[37m[22m - Hash: [1m[37md83ec1c34bbfd863[39m[37m[22m - Time: [1m[37m1389[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.27 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:02:31.232Z[39m[37m[22m - Hash: [1m[37md8cbbb1c0c8055ff[39m[37m[22m - Time: [1m[37m972[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m44[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m44[0m         { "totalRevenue": 240750, "totalRevenueLoss": -66150, "totalAppointmentNum": 1605, "totalTurnawayNum": 441 },[39m[22m
+[1m[31m[7m  [0m [91m                        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m44[0m:[93m27[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m44[0m         { "totalRevenue": 240750, "totalRevenueLoss": -66150, "totalAppointmentNum": 1605, "totalTurnawayNum": 441 },[39m[22m
+[1m[31m[7m  [0m [91m                          ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m44[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m44[0m         { "totalRevenue": 240750, "totalRevenueLoss": -66150, "totalAppointmentNum": 1605, "totalTurnawayNum": 441 },[39m[22m
+[1m[31m[7m  [0m [91m                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m44[0m:[93m55[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m44[0m         { "totalRevenue": 240750, "totalRevenueLoss": -66150, "totalAppointmentNum": 1605, "totalTurnawayNum": 441 },[39m[22m
+[1m[31m[7m  [0m [91m                                                      ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m44[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m44[0m         { "totalRevenue": 240750, "totalRevenueLoss": -66150, "totalAppointmentNum": 1605, "totalTurnawayNum": 441 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                   ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m44[0m:[93m86[0m - [91merror[0m[90m TS2695[39m[22m[1m[31m: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m44[0m         { "totalRevenue": 240750, "totalRevenueLoss": -66150, "totalAppointmentNum": 1605, "totalTurnawayNum": 441 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                     ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m44[0m:[93m110[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m44[0m         { "totalRevenue": 240750, "totalRevenueLoss": -66150, "totalAppointmentNum": 1605, "totalTurnawayNum": 441 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                             ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m44[0m:[93m117[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m44[0m         { "totalRevenue": 240750, "totalRevenueLoss": -66150, "totalAppointmentNum": 1605, "totalTurnawayNum": 441 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 235350, "totalRevenueLoss": -65400, "totalAppointmentNum": 1569, "totalTurnawayNum": 436 },[39m[22m
+[1m[31m[7m  [0m [91m                        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m27[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 235350, "totalRevenueLoss": -65400, "totalAppointmentNum": 1569, "totalTurnawayNum": 436 },[39m[22m
+[1m[31m[7m  [0m [91m                          ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m53[0m - [91merror[[39m[22m[1m[31m0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 235350, "totalRevenueLoss": -65400, "totalAppointmentNum": 1569, "totalTurnawayNum": 436 },[39m[22m
+[1m[31m[7m  [0m [91m                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m55[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 235350, "totalRevenueLoss": -65400, "totalAppointmentNum": 1569, "totalTurnawayNum": 436 },[39m[22m
+[1m[31m[7m  [0m [91m                                                      ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 235350, "totalRevenueLoss": -65400, "totalAppointmentNum": 1569, "totalTurnawayNum": 436 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                   ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m86[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 235350, "totalRevenueLoss": -65400, "totalAppointmentNum": 1569, "totalTurnawayNum": 436 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                     ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m110[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 235350, "totalRevenueLoss": -65400, "totalAppointmentNum": 1569, "totalTurnawayNum": 436 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                             ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m45[0m:[93m117[0[39m[22m[1m[31mm - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m45[0m         { "totalRevenue": 235350, "totalRevenueLoss": -65400, "totalAppointmentNum": 1569, "totalTurnawayNum": 436 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 238950, "totalRevenueLoss": -66600, "totalAppointmentNum": 1593, "totalTurnawayNum": 444 },[39m[22m
+[1m[31m[7m  [0m [91m                        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m27[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 238950, "totalRevenueLoss": -66600, "totalAppointmentNum": 1593, "totalTurnawayNum": 444 },[39m[22m
+[1m[31m[7m  [0m [91m                          ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 238950, "totalRevenueLoss": -66600, "totalAppointmentNum": 1593, "totalTurnawayNum": 444 },[39m[22m
+[1m[31m[7m  [0m [91m                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m55[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 238950, "totalRevenueLoss": -66600, "totalAppointmentNum": 1593, "totalTurnawayNum": 444 },[39m[22m
+[1m[31m[7m  [0m [91m                                                      ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { [39m[22m[1m[31m"totalRevenue": 238950, "totalRevenueLoss": -66600, "totalAppointmentNum": 1593, "totalTurnawayNum": 444 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                   ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m86[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 238950, "totalRevenueLoss": -66600, "totalAppointmentNum": 1593, "totalTurnawayNum": 444 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                     ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m110[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 238950, "totalRevenueLoss": -66600, "totalAppointmentNum": 1593, "totalTurnawayNum": 444 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                             ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m46[0m:[93m117[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m46[0m         { "totalRevenue": 238950, "totalRevenueLoss": -66600, "totalAppointmentNum": 1593, "totalTurnawayNum": 444 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 425750, "totalRevenueLoss": -69500, "totalAppointmentNum": 1703, "totalTurnawayNum": 278 },[39m[22m
+[1m[31m[7m  [0m [91m                        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m27[0m - [91merror[0m[90m TS2695: [0mLeft side of comma op[39m[22m[1m[31merator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 425750, "totalRevenueLoss": -69500, "totalAppointmentNum": 1703, "totalTurnawayNum": 278 },[39m[22m
+[1m[31m[7m  [0m [91m                          ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 425750, "totalRevenueLoss": -69500, "totalAppointmentNum": 1703, "totalTurnawayNum": 278 },[39m[22m
+[1m[31m[7m  [0m [91m                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m55[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 425750, "totalRevenueLoss": -69500, "totalAppointmentNum": 1703, "totalTurnawayNum": 278 },[39m[22m
+[1m[31m[7m  [0m [91m                                                      ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 425750, "totalRevenueLoss": -69500, "totalAppointmentNum": 1703, "totalTurnawayNum": 278 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                   ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m86[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 425750, "totalRevenueLoss": -69500, "totalAppointmentNum": 1703, "totalTurnawayNum": 278 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                     ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m110[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m        [39m[22m[1m[31m { "totalRevenue": 425750, "totalRevenueLoss": -69500, "totalAppointmentNum": 1703, "totalTurnawayNum": 278 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                             ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m47[0m:[93m117[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m47[0m         { "totalRevenue": 425750, "totalRevenueLoss": -69500, "totalAppointmentNum": 1703, "totalTurnawayNum": 278 },[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                                    ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 1243900, "totalRevenueLoss": -103600, "totalAppointmentNum": 1777, "totalTurnawayNum": 148 }[39m[22m
+[1m[31m[7m  [0m [91m                        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m27[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 1243900, "totalRevenueLoss": -103600, "totalAppointmentNum": 1777, "totalTurnawayNum": 148 }[39m[22m
+[1m[31m[7m  [0m [91m                          ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 1243900, "totalRevenueLoss": -103600, "totalAppointmentNum": 1777, "totalTurnawayNum": 148 }[39m[22m
+[1m[31m[7m  [0m [91m                                                     ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m56[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue":[39m[22m[1m[31m 1243900, "totalRevenueLoss": -103600, "totalAppointmentNum": 1777, "totalTurnawayNum": 148 }[39m[22m
+[1m[31m[7m  [0m [91m                                                       ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m86[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 1243900, "totalRevenueLoss": -103600, "totalAppointmentNum": 1777, "totalTurnawayNum": 148 }[39m[22m
+[1m[31m[7m  [0m [91m                                                                                     ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m88[0m - [91merror[0m[90m TS2695: [0mLeft side of comma operator is unused and has no side effects.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 1243900, "totalRevenueLoss": -103600, "totalAppointmentNum": 1777, "totalTurnawayNum": 148 }[39m[22m
+[1m[31m[7m  [0m [91m                                                                                       ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m48[0m:[93m112[0m - [91merror[0m[90m TS1005: [0m';' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m48[0m         { "totalRevenue": 1243900, "totalRevenueLoss": -103600, "totalAppointmentNum": 1777, "totalTurnawayNum": 148 }[39m[22m
+[1m[31m[7m  [0m [91m                                                                                                               ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.55 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:02:37.749Z[39m[37m[22m - Hash: [1m[37mbcca93842df02145[39m[37m[22m - Time: [1m[37m482[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.65 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:02:43.700Z[39m[37m[22m - Hash: [1m[37m0432d19054f2a6ab[39m[37m[22m - Time: [1m[37m517[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:04:31.691Z[39m[37m[22m - Hash: [1m[37m9a9de7142b295644[39m[37m[22m - Time: [1m[37m777[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:04:45.370Z[39m[37m[22m - Hash: [1m[37mc8802d13d5d887df[39m[37m[22m - Time: [1m[37m354[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.37 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:05:43.846Z[39m[37m[22m - Hash: [1m[37me90ec6c760706409[39m[37m[22m - Time: [1m[37m661[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.36 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:06:21.980Z[39m[37m[22m - Hash: [1m[37m950fda97a8cccfb4[39m[37m[22m - Time: [1m[37m796[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m31.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:07:36.580Z[39m[37m[22m - Hash: [1m[37m848ce8f2078df57f[39m[37m[22m - Time: [1m[37m776[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m31.97 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:08:32.843Z[39m[37m[22m - Hash: [1m[37m286940f1302b7460[39m[37m[22m - Time: [1m[37m685[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:10:54.020Z[39m[37m[22m - Hash: [1m[37m788d8c5e0b4f0e46[39m[37m[22m - Time: [1m[37m805[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:12:10.372Z[39m[37m[22m - Hash: [1m[37m2d728242e413178b[39m[37m[22m - Time: [1m[37m752[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.08 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:12:23.815Z[39m[37m[22m - Hash: [1m[37m2ebc6c2f060ee94f[39m[37m[22m - Time: [1m[37m445[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.33 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:13:31.651Z[39m[37m[22m - Hash: [1m[37ma70271133324741a[39m[37m[22m - Time: [1m[37m547[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:18:53.900Z[39m[37m[22m - Hash: [1m[37m068c176f039ebeaa[39m[37m[22m - Time: [1m[37m810[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.51 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:19:39.477Z[39m[37m[22m - Hash: [1m[37m80c373e8c7f210ac[39m[37m[22m - Time: [1m[37m555[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.89 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:20:15.135Z[39m[37m[22m - Hash: [1m[37m3c106e916c67c4ff[39m[37m[22m - Time: [1m[37m638[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.02 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:25:22.139Z[39m[37m[22m - Hash: [1m[37m44a7e8659a2c7d6d[39m[37m[22m - Time: [1m[37m799[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.92 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:25:38.848Z[39m[37m[22m - Hash: [1m[37mf9b86986ccca497b[39m[37m[22m - Time: [1m[37m620[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m62[0m:[93m40[0m - [91merror[0m[90m TS2551: [0mProperty 'chartData' does not exist on type 'DashboardComponent'. Did you mean 'charData'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m62[0m             revenue.push(parseInt(this.chartData.barCharData[i]['totalRevenue']))[39m[22m
+[1m[31m[7m  [0m [91m                                       ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m43[0m:[93m17[0m[39m[22m
+[1m[31m    [7m43[0m     constructor(public charData: ChartDataServiceService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'charData' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m64[0m:[93m31[0m - [91merror[0m[90m TS2551: [0mProperty 'chartData' does not exist on type 'DashboardComponent'. Did you mean 'charData'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m64[0m                 parseInt(this.chartData.barCharData[i]['totalRevenueLoss'])[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m43[0m:[93m17[0m[39m[22m
+[1m[31m    [7m43[0m     constructor(public charData: ChartDataServiceService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'charData' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m67[0m:[93m31[0m - [91merror[0m[90m TS2551: [0mProperty 'chartData' does not exist on type 'DashboardComponent'. Did you mean 'charData'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m67[0m                 parseInt(this.chartData.barCharData[i]['totalAppointmentNum'])[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m43[0m:[93m17[0m[39m[22m
+[1m[31m    [7m43[0m     constructor(public charData: ChartDataServiceService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'charData' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[9[39m[22m[1m[31m6msrc/app/dashboard/dashboard.component.ts[0m:[93m70[0m:[93m31[0m - [91merror[0m[90m TS2551: [0mProperty 'chartData' does not exist on type 'DashboardComponent'. Did you mean 'charData'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m70[0m                 parseInt(this.chartData.barCharData[i]['totalAppointmentNum'])[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m43[0m:[93m17[0m[39m[22m
+[1m[31m    [7m43[0m     constructor(public charData: ChartDataServiceService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'charData' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m32.92 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:25:47.599Z[39m[37m[22m - Hash: [1m[37m930db34e42751a5e[39m[37m[22m - Time: [1m[37m534[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.04 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:26:34.338Z[39m[37m[22m - Hash: [1m[37mb45bd9ff7ccd6ffc[39m[37m[22m - Time: [1m[37m687[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.02 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:49:45.151Z[39m[37m[22m - Hash: [1m[37me373f35340453ff9[39m[37m[22m - Time: [1m[37m772[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.21 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:49:47.585Z[39m[37m[22m - Hash: [1m[37m8ebfed6b0d9b8942[39m[37m[22m - Time: [1m[37m510[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:49:54.700Z[39m[37m[22m - Hash: [1m[37mb3b54d0997f6c399[39m[37m[22m - Time: [1m[37m435[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m62[0m:[93m40[0m - [91merror[0m[90m TS2551: [0mProperty 'chartData' does not exist on type 'DashboardComponent'. Did you mean 'charData'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m62[0m             revenue.push(parseInt(this.chartData.barCharData[i]['totalRevenue']))[39m[22m
+[1m[31m[7m  [0m [91m                                       ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m43[0m:[93m17[0m[39m[22m
+[1m[31m    [7m43[0m     constructor(public charData: ChartDataServiceService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'charData' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m64[0m:[93m31[0m - [91merror[0m[90m TS2551: [0mProperty 'chartData' does not exist on type 'DashboardComponent'. Did you mean 'charData'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m64[0m                 parseInt(this.chartData.barCharData[i]['totalRevenueLoss'])[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m43[0m:[93m17[0m[39m[22m
+[1m[31m    [7m43[0m     constructor(public charData: ChartDataServiceService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'charData' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m67[0m:[93m31[0m - [91merror[0m[90m TS2551: [0mProperty 'chartData' does not exist on type 'DashboardComponent'. Did you mean 'charData'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m67[0m                 parseInt(this.chartData.barCharData[i]['totalAppointmentNum'])[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m43[0m:[93m17[0m[39m[22m
+[1m[31m    [7m43[0m     constructor(public charData: ChartDataServiceService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'charData' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[9[39m[22m[1m[31m6msrc/app/dashboard/dashboard.component.ts[0m:[93m70[0m:[93m31[0m - [91merror[0m[90m TS2551: [0mProperty 'chartData' does not exist on type 'DashboardComponent'. Did you mean 'charData'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m70[0m                 parseInt(this.chartData.barCharData[i]['totalAppointmentNum'])[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/dashboard/dashboard.component.ts[0m:[93m43[0m:[93m17[0m[39m[22m
+[1m[31m    [7m43[0m     constructor(public charData: ChartDataServiceService) { }[39m[22m
+[1m[31m    [7m  [0m [96m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'charData' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:50:04.969Z[39m[37m[22m - Hash: [1m[37me305510f6130f159[39m[37m[22m - Time: [1m[37m558[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:51:26.314Z[39m[37m[22m - Hash: [1m[37m5114861ae79c0df5[39m[37m[22m - Time: [1m[37m613[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.22 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:52:05.459Z[39m[37m[22m - Hash: [1m[37m86b77a989e113e12[39m[37m[22m - Time: [1m[37m768[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.55 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-24T23:53:56.335Z[39m[37m[22m - Hash: [1m[37md4139cc5e4a52c4f[39m[37m[22m - Time: [1m[37m704[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.55 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T00:14:32.216Z[39m[37m[22m - Hash: [1m[37m78f923133c14e023[39m[37m[22m - Time: [1m[37m825[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.57 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T00:16:25.857Z[39m[37m[22m - Hash: [1m[37m28b13f75d104fa5e[39m[37m[22m - Time: [1m[37m1072[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.58 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T00:17:30.730Z[39m[37m[22m - Hash: [1m[37mea6f384dd0c8dbcb[39m[37m[22m - Time: [1m[37m895[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m33.55 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T00:17:59.606Z[39m[37m[22m - Hash: [1m[37m99f65da44d83de39[39m[37m[22m - Time: [1m[37m613[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.10 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T00:23:33.587Z[39m[37m[22m - Hash: [1m[37m9c06e881f918a978[39m[37m[22m - Time: [1m[37m824[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m162[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'revenue'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m162[0m                 revenue.push(parseInt(this.chartData.barCharData[i]['totalRevenue']))[39m[22m
+[1m[31m[7m   [0m [91m                ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m163[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'totalRevenueLoss'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m163[0m                 totalRevenueLoss.push([39m[22m
+[1m[31m[7m   [0m [91m                ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m166[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'totalRevenueApptNum'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m166[0m                 totalRevenueApptNum.push([39m[22m
+[1m[31m[7m   [0m [91m                ~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m169[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'totalTurnAwayNum'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m169[0m                 totalTurnAwayNum.push([39m[22m
+[1m[31m[7m   [0m [91m                ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.10 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T00:24:17.955Z[39m[37m[22m - Hash: [1m[37mf3486a53cbc7609b[39m[37m[22m - Time: [1m[37m506[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m81[0m:[93m31[0m - [91merror[0m[90m TS2663: [0mCannot find name 'revenue'. Did you mean the instance member 'this.revenue'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m81[0m                         data: revenue,[39m[22m
+[1m[31m[7m  [0m [91m                              ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m102[0m:[93m31[0m - [91merror[0m[90m TS2663: [0mCannot find name 'totalRevenueLoss'. Did you mean the instance member 'this.totalRevenueLoss'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m102[0m                         data: totalRevenueLoss,[39m[22m
+[1m[31m[7m   [0m [91m                              ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m123[0m:[93m31[0m - [91merror[0m[90m TS2663: [0mCannot find name 'totalRevenueApptNum'. Did you mean the instance member 'this.totalRevenueApptNum'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m123[0m                         data: totalRevenueApptNum,[39m[22m
+[1m[31m[7m   [0m [91m                              ~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m144[0m:[93m31[0m - [91merror[0m[90m TS2663: [0mCannot find name 'totalTurnAwayNum'. Did you mean the instance member 'this.totalTurnAwayNum'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m144[0m                         data: totalTurnAwayNum,[39m[22m
+[1m[31m[7m   [0m [91m                              ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m162[0m:[93m17[0m - [91merror[0m[90m TS2663: [0mCannot find name 'revenue'. Did you mean the instance member 'this.revenue'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m162[0m                 revenue.push(parseInt(this.chartData.barCharData[i]['totalRevenue']))[39m[22m
+[1m[31m[7m   [0m [91m                ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m163[0m:[93m17[0m - [91merror[0m[90m TS2663: [0mCannot find name 'totalRevenueLoss'. Did you mean the instance member 'this[39m[22m[1m[31m.totalRevenueLoss'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m163[0m                 totalRevenueLoss.push([39m[22m
+[1m[31m[7m   [0m [91m                ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m166[0m:[93m17[0m - [91merror[0m[90m TS2663: [0mCannot find name 'totalRevenueApptNum'. Did you mean the instance member 'this.totalRevenueApptNum'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m166[0m                 totalRevenueApptNum.push([39m[22m
+[1m[31m[7m   [0m [91m                ~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m169[0m:[93m17[0m - [91merror[0m[90m TS2663: [0mCannot find name 'totalTurnAwayNum'. Did you mean the instance member 'this.totalTurnAwayNum'?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m169[0m                 totalTurnAwayNum.push([39m[22m
+[1m[31m[7m   [0m [91m                ~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.14 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T00:24:47.082Z[39m[37m[22m - Hash: [1m[37mde979b634c7b7aa9[39m[37m[22m - Time: [1m[37m555[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.16 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T00:25:45.489Z[39m[37m[22m - Hash: [1m[37md66796cd07a11b53[39m[37m[22m - Time: [1m[37m704[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.17 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T00:25:53.915Z[39m[37m[22m - Hash: [1m[37m37bfca8e59957481[39m[37m[22m - Time: [1m[37m516[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T01:18:48.715Z[39m[37m[22m - Hash: [1m[37mc60b0ed77a57d8e4[39m[37m[22m - Time: [1m[37m1733[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.62 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T01:23:59.934Z[39m[37m[22m - Hash: [1m[37m5e61b6077af5f81b[39m[37m[22m - Time: [1m[37m622[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.74 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T01:25:09.512Z[39m[37m[22m - Hash: [1m[37m93063840d81ca632[39m[37m[22m - Time: [1m[37m671[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/Input-page/Input-Page.component.ts[0m:[93m82[0m:[93m35[0m - [91merror[0m[90m TS2540: [0mCannot assign to 'barCharData' because it is a read-only property.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m82[0m             this.chartDataService.barCharData = data.graphData[39m[22m
+[1m[31m[7m  [0m [91m                                  ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.74 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T01:26:26.835Z[39m[37m[22m - Hash: [1m[37mfa85b49aabd13896[39m[37m[22m - Time: [1m[37m586[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.70 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T01:32:49.037Z[39m[37m[22m - Hash: [1m[37m24730d3121e99af0[39m[37m[22m - Time: [1m[37m812[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m57[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m57[0m         })[39m[22m
+[1m[31m[7m  [0m [91m        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.71 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T01:33:03.036Z[39m[37m[22m - Hash: [1m[37m174132e67d6160d6[39m[37m[22m - Time: [1m[37m418[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/dashboard/dashboard.component.ts[0m:[93m57[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m57[0m         })[39m[22m
+[1m[31m[7m  [0m [91m        ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.82 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T01:34:20.380Z[39m[37m[22m - Hash: [1m[37m745c117aa9a37749[39m[37m[22m - Time: [1m[37m710[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m34.90 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T01:35:12.092Z[39m[37m[22m - Hash: [1m[37m84fc7c2220f437bf[39m[37m[22m - Time: [1m[37m703[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[1A[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[1A[2K[1G[1A[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[1A[2K[1G[1A[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m35.11 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.52 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-01-25T01:37:47.565Z[39m[37m[22m - Hash: [1m[37m9e88b0fe45bd0e96[39m[37m[22m - Time: [1m[37m751[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m

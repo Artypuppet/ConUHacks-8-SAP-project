@@ -1,5 +1,5 @@
 from datetime import datetime as dt
-from BackEndOld.Appointment import Appointments
+from .Appointment import Appointments
 
 
 class ServiceBay:
