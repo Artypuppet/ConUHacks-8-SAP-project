@@ -15,14 +15,10 @@ export class ChartDataServiceService {
     }
     set barChartData(data: any) {
         this._barChartData = data;
-        console.log("In bar chart setter");
-        console.log(data);
         this.mySubject.next({ barChartData: this.barCharData });
     }
     set finalMetricsData(data: any) {
         this._finalMetricsData = data;
-        console.log(data);
-        console.log("In final metrics setter")
         this.mySubject.next({ finalMetricsData: this._finalMetricsData });
     }
 

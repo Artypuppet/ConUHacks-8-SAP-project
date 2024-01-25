@@ -77,7 +77,6 @@ export class InputPageComponent {
                 })
                 .toPromise()
 
-            console.log(response)
             let data = JSON.parse(response!)
             for (let dataKey in data) {
                 data[dataKey] = JSON.parse(data[dataKey]);

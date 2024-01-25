@@ -163,11 +163,6 @@ export class DashboardComponent {
         })
     }
     createBarChart() {
-        console.log("in createBarChart")
-        console.log(typeof this.chartData.barCharData);
-        console.log(this.chartData.finalMetricsData);
-        console.log(this.chartData.barCharData[0]);
-        console.log(typeof this.chartData.barCharData[0]);
         for (let i = 0; i < 5; i++) {
             this.revenue.push(parseInt(this.chartData.barCharData[i]['totalRevenue']))
             this.totalRevenueLoss.push(
@@ -180,10 +175,10 @@ export class DashboardComponent {
                 parseInt(this.chartData.barCharData[i]['totalAppointmentNum'])
             )
         }
-        console.log("revenue" + this.revenue);
-        console.log("loss" + this.totalRevenueLoss);
-        console.log("appt Num" + this.totalRevenueApptNum);
-        console.log("total Turn Away Num" + this.totalTurnAwayNum);
+        this.barChartRevenue.update();
+        this.barChartLoss.update();
+        this.barChartRevApptNum.update();
+        this.barChartTurnAwayNum.update();
     }
     createFinalMetrics() {
         console.log("In final metrics");
