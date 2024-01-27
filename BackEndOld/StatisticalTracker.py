@@ -13,11 +13,13 @@ class StatisticalTracker(Observer):
              {"totalRevenue": 0, "totalRevenueLoss": 0, "totalAppointmentNum": 0, "totalTurnawayNum": 0}]
     overallStats = {"totalRevenue": 0, "totalRevenueLoss": 0,
                     "totalAppointmentNum": 0, "totalTurnawayNum": 0}
+    days = {}
 
     def __init__(self):
         pass
 
     def update(self, appointment):
+        day = appointment.day
         if appointment.status == "Success":
             StatisticalTracker.overallStats["totalRevenue"] += appointment.car_rev
             StatisticalTracker.overallStats["totalAppointmentNum"] += 1
@@ -28,6 +30,13 @@ class StatisticalTracker(Observer):
             # updates appointment num for car
             StatisticalTracker.types[carIndex]["totalAppointmentNum"] += 1
 
+            if day not in StatisticalTracker.days:
+                StatisticalTracker.days[day] = {
+                    "Revenue": 0, "Loss": 0,  "Appointments": 0, "Turned Away": 0}
+
+            StatisticalTracker.days[day]["Revenue"] += appointment.car_rev
+            StatisticalTracker.days[day]["Appointments"] += 1
+
         elif appointment.status == "Turnaway":
             StatisticalTracker.overallStats["totalRevenueLoss"] -= appointment.car_rev
             StatisticalTracker.overallStats["totalTurnawayNum"] += 1
@@ -37,6 +46,13 @@ class StatisticalTracker(Observer):
             StatisticalTracker.types[carIndex]["totalRevenueLoss"] -= appointment.car_rev
             # updates appointment num for car
             StatisticalTracker.types[carIndex]["totalTurnawayNum"] += 1
+            if day not in StatisticalTracker.days:
+                StatisticalTracker.days[day] = {
+                    "Revenue": 0, "Loss": 0,  "Appointments": 0, "Turned Away": 0}
+
+            StatisticalTracker.days[day]["Loss"] -= appointment.car_rev
+            StatisticalTracker.days[day]["Turned Away"] += 1
+
         elif appointment.status == "Rescheduled":
             # We have to subtract from the revenue because now we're at a loss
             StatisticalTracker.overallStats["totalRevenue"] -= appointment.car_rev

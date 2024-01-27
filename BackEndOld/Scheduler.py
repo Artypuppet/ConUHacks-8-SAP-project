@@ -36,7 +36,7 @@ class Scheduler(Subject):
         # print(len(self.csvFile)) For debugging
         # print(self.csvFile) For debugging
         for ind in range(len(self.csvFile)):
-            year, month, day = self.csvFile[ind][0].split(' ')[0].split(
+            year, month, day = self.csvFile[ind][1].split(' ')[0].split(
                 "-")
             apptDate = date(int(year), int(month), int(day))
 
@@ -49,8 +49,9 @@ class Scheduler(Subject):
                 self.days[apptDate] = Day(apptDate)
 
             # Create an appointment and try to add it to the schedule
-            appointment = Appointments(self.csvFile[ind][1].split(" ")[
-                                       1], self.csvFile[ind][2])
+            dateAndTime = self.csvFile[ind][1].split(" ")
+            appointment = Appointments(
+                dateAndTime[0], dateAndTime[1], self.csvFile[ind][2])
 
             if (self.days[apptDate].add_appointment(appointment)):
                 appointment.status = 'Success'

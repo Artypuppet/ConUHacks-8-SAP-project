@@ -65,18 +65,6 @@ export class DashboardComponent {
             'Class 2 Trucks',
         ]
 
-        // for (let i = 0; i < 5; i++) {
-        //     revenue.push(parseInt(this.chartData.barCharData[i]['totalRevenue']))
-        //     totalRevenueLoss.push(
-        //         parseInt(this.chartData.barCharData[i]['totalRevenueLoss'])
-        //     )
-        //     totalRevenueApptNum.push(
-        //         parseInt(this.chartData.barCharData[i]['totalAppointmentNum'])
-        //     )
-        //     totalTurnAwayNum.push(
-        //         parseInt(this.chartData.barCharData[i]['totalAppointmentNum'])
-        //     )
-        // }
         this.barChartRevenue = new Chart('Revenue', {
             type: 'bar',
             data: {

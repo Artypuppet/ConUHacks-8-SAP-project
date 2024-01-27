@@ -17,5 +17,4 @@ def Driver(csvFilePath: str):
 
     # Start process
     scheduler.schedule()
-
-    return json.dumps(StatisticalTracker.types), json.dumps(StatisticalTracker.overallStats)
+    return json.dumps(StatisticalTracker.types), json.dumps(StatisticalTracker.overallStats), json.dumps(StatisticalTracker.days)

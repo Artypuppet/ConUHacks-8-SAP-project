@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run SAP_FrontEnd:build",
+    "startTime": "2024-01-25T02:28:07.699Z",
+    "endTime": "2024-01-25T02:28:28.653Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "SAP_FrontEnd:build:production",
+      "target": "build",
+      "projectName": "SAP_FrontEnd",
+      "hash": "1539721296014475426",
+      "startTime": "2024-01-25T02:28:07.708Z",
+      "endTime": "2024-01-25T02:28:28.652Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

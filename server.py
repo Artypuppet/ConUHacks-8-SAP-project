@@ -18,7 +18,7 @@ def postCSVFile():
         filePath = os.path.join("uploadFiles", file.filename)
         file.save(filePath)
         print("got the file")
-    graphData, FinalMetrics = Driver(filePath)
+    graphData, FinalMetrics, days = Driver(filePath)
     return jsonify(graphData=graphData, finalMetrics=FinalMetrics)
 
 

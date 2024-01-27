@@ -41,28 +41,7 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
-    "nonProjectFiles": [
-      {
-        "file": "src/app/app.module.ts",
-        "hash": "8268646313171935871"
-      },
-      {
-        "file": "src/app/Chart-Data-Service/chart-data-service.service.ts",
-        "hash": "17245533916369068683"
-      },
-      {
-        "file": "src/app/dashboard/dashboard.component.ts",
-        "hash": "704074639456587069"
-      },
-      {
-        "file": "src/app/Input-page/Input-Page.component.ts",
-        "hash": "4870236704131140536"
-      },
-      {
-        "file": "src/app/dashboard/dashboard.component.html",
-        "hash": "5053699729271576995"
-      }
-    ],
+    "nonProjectFiles": [],
     "projectFileMap": {
       "SAP_FrontEnd": [
         {
@@ -144,7 +123,7 @@
         },
         {
           "file": "project.json",
-          "hash": "15228761584796292505"
+          "hash": "849903294086987968"
         },
         {
           "file": "src/app/Chart-Data-Service/chart-data-service.service.spec.ts",
@@ -155,10 +134,11 @@
         },
         {
           "file": "src/app/Chart-Data-Service/chart-data-service.service.ts",
-          "hash": "3074605534158179037",
+          "hash": "17245533916369068683",
           "deps": [
             "npm:@angular/core",
-            "npm:@angular/common"
+            "npm:@angular/common",
+            "npm:rxjs"
           ]
         },
         {
@@ -178,7 +158,7 @@
         },
         {
           "file": "src/app/Input-page/Input-Page.component.ts",
-          "hash": "16470014129726680742",
+          "hash": "5816372070887910386",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -221,7 +201,7 @@
         },
         {
           "file": "src/app/app.module.ts",
-          "hash": "1309045787609433129",
+          "hash": "8268646313171935871",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/platform-browser",
@@ -233,7 +213,7 @@
         },
         {
           "file": "src/app/dashboard/dashboard.component.html",
-          "hash": "10383116847552261889"
+          "hash": "5053699729271576995"
         },
         {
           "file": "src/app/dashboard/dashboard.component.scss",
@@ -248,11 +228,35 @@
         },
         {
           "file": "src/app/dashboard/dashboard.component.ts",
-          "hash": "6948399577502041960",
+          "hash": "8725579687467879699",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
+            "npm:chart.js",
             "npm:@nebular/theme"
+          ]
+        },
+        {
+          "file": "src/app/schedule/Schedule.component.html",
+          "hash": "303945225147893492"
+        },
+        {
+          "file": "src/app/schedule/Schedule.component.scss",
+          "hash": "4055606894390288348"
+        },
+        {
+          "file": "src/app/schedule/Schedule.component.spec.ts",
+          "hash": "11770314071376602628",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/schedule/Schedule.component.ts",
+          "hash": "11109980421409009506",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
           ]
         },
         {
