@@ -3774,3 +3774,39 @@
 [NX Daemon Server] - 2024-01-27T19:00:04.248Z - Closed a connection. Number of open connections: 3
 [NX Daemon Server] - 2024-01-27T19:00:18.571Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2024-01-27T19:00:21.461Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-27T22:00:04.180Z - There are 3 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-01-27T22:02:42.548Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-27T22:02:42.558Z - [WATCHER]: src/app/app.component.ts was modified
+[NX Daemon Server] - 2024-01-27T22:02:42.673Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-27T22:02:42.673Z - [REQUEST]: src/app/app.component.ts
+[NX Daemon Server] - 2024-01-27T22:02:42.673Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-27T22:02:42.723Z - Time taken for 'hash changed files from watcher' 1.107499998062849ms
+[NX Daemon Server] - 2024-01-27T22:02:43.636Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-27T22:02:45.208Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-01-28T01:02:32.949Z - There are 3 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-01-28T04:02:32.955Z - There are 3 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-01-28T06:34:46.114Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-28T06:34:46.157Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-28T07:02:32.964Z - There are 1 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-01-28T10:05:49.597Z - There are 1 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-01-28T12:14:51.254Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-28T12:40:38.967Z - Started listening on: \\.\pipe\nx\C:\Users\jaspr\AppData\Local\Temp\6e59a391149d4869da69\d.sock
+[NX Daemon Server] - 2024-01-28T12:40:38.976Z - [WATCHER]: Subscribed to changes within: c:\Users\jaspr\.vscode\ConUHacks 8 SAP project\SAP_FrontEnd (native)
+[NX Daemon Server] - 2024-01-28T12:40:38.978Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-28T12:40:38.981Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-28T12:40:38.982Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-28T12:40:38.984Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-28T12:40:38.999Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-28T12:40:38.999Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-28T12:40:38.999Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-28T12:40:39.226Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-28T12:40:39.229Z - Time taken for 'total for creating and serializing project graph' 241.75110000000132ms
+[NX Daemon Server] - 2024-01-28T12:40:39.229Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-28T12:40:39.229Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 242. Response time: 3.
+[NX Daemon Server] - 2024-01-28T12:40:39.236Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-28T12:40:39.237Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-28T12:40:39.237Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-28T12:40:39.237Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-28T12:40:39.241Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-01-28T12:40:39.241Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-01-28T12:40:39.241Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.

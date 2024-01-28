@@ -193,7 +193,7 @@
         },
         {
           "file": "src/app/app.component.ts",
-          "hash": "14191629717024617370",
+          "hash": "15425781917401337164",
           "deps": [
             "npm:@angular/core",
             "npm:@nebular/theme"

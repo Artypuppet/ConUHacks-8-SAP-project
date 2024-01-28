@@ -21,6 +21,7 @@ export class AppComponent {
         {
             title: 'Calendar View',
             icon: 'calendar-outline',
+            hidden: true
         },
     ]
     constructor(private sidebarService: NbSidebarService, private menuService: NbMenuService) { }
